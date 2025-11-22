@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, CheckCircle2 } from "lucide-react";
-import maritimeOpsImage from "@/assets/maritime-ops-hub.jpg";
+import maritimeOpsVideo from "@/assets/maritime-ops-promo.mp4";
 
 const CaseStudy = () => {
   const features = [
@@ -39,13 +39,16 @@ const CaseStudy = () => {
             Maritime Operations Hub: Real-Time AI-Powered Fleet Management
           </h3>
 
-          {/* Hero Image */}
+          {/* Hero Video */}
           <div className="mb-12 rounded-xl overflow-hidden shadow-large">
-            <img 
-              src={maritimeOpsImage} 
-              alt="Maritime Operations Hub Dashboard" 
+            <video 
+              src={maritimeOpsVideo} 
+              controls
               className="w-full h-auto"
-            />
+              aria-label="Maritime Operations Hub promotional video"
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
 
           {/* Problem Statement */}
