@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+import driftLogo from "@/assets/drift-ai-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,12 +8,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo & Copyright */}
-          <div className="flex items-center space-x-3 mb-6 md:mb-0">
-            <img src={logo} alt="drift.ai" className="h-10 w-10" />
-            <div>
-              <p className="font-bold text-lg">drift.ai</p>
-              <p className="text-sm opacity-75">Maritime AI Consulting</p>
-            </div>
+          <div className="flex flex-col items-center md:items-start space-y-2 mb-6 md:mb-0">
+            <img src={driftLogo} alt="Drift AI" className="h-8 w-auto" />
+            <p className="text-sm opacity-75">Maritime AI Consulting</p>
           </div>
 
           {/* Links */}

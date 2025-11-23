@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
+import driftLogo from "@/assets/drift-ai-logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,12 +39,9 @@ const Navigation = () => {
           {/* Logo */}
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+            className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <img src={logo} alt="drift.ai" className="h-12 w-12" />
-            <span className={`text-2xl font-bold ${isScrolled ? "text-primary" : "text-primary-foreground"}`}>
-              drift.ai
-            </span>
+            <img src={driftLogo} alt="Drift AI" className="h-10 w-auto" />
           </button>
 
           {/* Desktop Navigation */}
