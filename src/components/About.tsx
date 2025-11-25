@@ -58,14 +58,14 @@ const About = () => {
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <img 
                 src={profileImage} 
-                alt="André Buskop - Chief Architect & Founder of drift.ai"
+                alt="Andreas Buskop - Chief Architect & Founder of drift.ai"
                 className="w-48 h-48 rounded-lg object-cover shadow-medium flex-shrink-0"
               />
               <div className="space-y-6 text-foreground">
-                <h3 className="text-2xl font-bold mb-4">André Buskop - Chief Architect & Founder</h3>
+                <h3 className="text-2xl font-bold mb-4">Andreas Buskop - Chief Architect & Founder</h3>
                 
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  André Buskop is a Senior Business Developer and Naval Architect with 16+ years of experience 
+                  Andreas Buskop is a Senior Business Developer and Naval Architect with 16+ years of experience 
                   bridging technical complexity with commercial viability in the energy and maritime sectors. 
                   Currently pursuing an Executive Master in Management – Applied AI at BI Norwegian Business School, 
                   he combines deep maritime domain expertise with emerging AI capabilities to solve real operational challenges.
@@ -79,7 +79,7 @@ const About = () => {
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  André founded drift.ai to bridge the critical gap between cutting-edge generative AI capabilities 
+                  Andreas founded drift.ai to bridge the critical gap between cutting-edge generative AI capabilities 
                   and practical maritime industry needs. By leveraging Python, AI automation, and strategic consulting 
                   expertise, he helps maritime companies reclaim time from routine operations and amplify strategic 
                   decision-making. His approach combines proven commercial acumen, technical depth, and deep maritime 
