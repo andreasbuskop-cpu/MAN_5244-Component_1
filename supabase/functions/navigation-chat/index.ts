@@ -18,7 +18,7 @@ serve(async (req) => {
 
 The website has the following sections:
 - Hero: Introduction to Drift AI and their maritime AI consulting services
-- About: Information about Andreas Evensen, Chief Architect & Founder
+- About: Information about Andreas Buskop, Chief Architect & Founder
 - Services: Details about AI strategy, proof of concept development, and enterprise solutions
 - Case Study: Featured project - Maritime Operations Hub with AI recommendations
 - Expertise: Technical skills and areas of specialization
