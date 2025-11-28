@@ -8,69 +8,39 @@ const Services = () => {
   const services = [
     {
       icon: Compass,
-      title: "AI Strategy Consulting for Maritime Operations",
-      description: "We assess your maritime operations and identify high-impact AI implementation opportunities through strategic consultation.",
-      features: [
-        "Operational assessment and opportunity identification",
-        "Feasibility analysis for AI solutions",
-        "Implementation roadmap with phased approach",
-        "ROI projections and business case development"
-      ]
+      title: t("services.strategy.title"),
+      description: t("services.strategy.description"),
+      features: t("services.strategy.features", { returnObjects: true }) as string[]
     },
     {
       icon: Code,
-      title: "Custom AI Application Development",
-      description: "We design and build tailored generative AI applications for your specific maritime workflows—purpose-built, not generic.",
-      features: [
-        "Full-stack application development",
-        "AI model integration and optimization",
-        "API integration with maritime data sources",
-        "Production deployment and monitoring"
-      ]
+      title: t("services.development.title"),
+      description: t("services.development.description"),
+      features: t("services.development.features", { returnObjects: true }) as string[]
     },
     {
       icon: Route,
-      title: "Route Optimization & Fuel Efficiency Analysis",
-      description: "Leverage AI-powered analysis to optimize vessel routes, reduce fuel consumption, and identify cost-saving opportunities.",
-      features: [
-        "Route optimization with cost/benefit analysis",
-        "Fuel efficiency recommendations",
-        "Savings projections and tracking",
-        "Real-time weather integration"
-      ]
+      title: t("services.route.title"),
+      description: t("services.route.description"),
+      features: t("services.route.features", { returnObjects: true }) as string[]
     },
     {
       icon: AlertTriangle,
-      title: "Operational Issue Analysis & Impact Assessment",
-      description: "When operational issues arise, our AI-powered analysis quickly assesses impact, estimates costs, and recommends mitigation strategies.",
-      features: [
-        "Rapid issue impact analysis",
-        "Cost and timeline impact assessment",
-        "Risk level determination",
-        "Recommended mitigation actions"
-      ]
+      title: t("services.issue.title"),
+      description: t("services.issue.description"),
+      features: t("services.issue.features", { returnObjects: true }) as string[]
     },
     {
       icon: BarChart3,
-      title: "Real-Time Fleet Visibility & Analytics Dashboard",
-      description: "Gain complete visibility into your fleet operations with a unified dashboard integrating live tracking, weather, and analytics.",
-      features: [
-        "Interactive fleet tracking dashboard",
-        "Real-time weather and operational alerts",
-        "Fleet performance analytics",
-        "Role-based access control"
-      ]
+      title: t("services.fleet.title"),
+      description: t("services.fleet.description"),
+      features: t("services.fleet.features", { returnObjects: true }) as string[]
     },
     {
       icon: Database,
-      title: "Local RAG Models & Engineering Data Intelligence",
-      description: "Consolidate fragmented design and engineering data with local AI models that give you complete control and unlock value.",
-      features: [
-        "Local RAG model for data sovereignty",
-        "Integration with design tools (CAD, analysis)",
-        "AI co-pilot for engineers and designers",
-        "Knowledge capture and institutional memory"
-      ]
+      title: t("services.rag.title"),
+      description: t("services.rag.description"),
+      features: t("services.rag.features", { returnObjects: true }) as string[]
     }
   ];
 
@@ -83,11 +53,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
-            What We Offer
+            {t("services.title")}
           </h2>
           <p className="text-xl text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
-            Our consulting services combine maritime domain expertise with cutting-edge generative AI 
-            to solve your most pressing operational challenges.
+            {t("services.subtitle")}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -118,7 +87,7 @@ const Services = () => {
               onClick={scrollToContact}
               className="text-lg px-8 py-6"
             >
-              Ready to transform your operations? Schedule a consultation
+              {t("services.cta")}
             </Button>
           </div>
         </div>

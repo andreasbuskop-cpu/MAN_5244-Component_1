@@ -41,7 +41,7 @@ const ChatBot = () => {
 
       if (data?.error) {
         toast({
-          title: "Error",
+          title: t("chatbot.error"),
           description: data.error,
           variant: "destructive",
         });
@@ -53,8 +53,8 @@ const ChatBot = () => {
     } catch (error) {
       console.error("Chat error:", error);
       toast({
-        title: "Error",
-        description: "Failed to send message. Please try again.",
+        title: t("chatbot.error"),
+        description: t("chatbot.errorMessage"),
         variant: "destructive",
       });
     } finally {
@@ -89,7 +89,7 @@ const ChatBot = () => {
           <div className="flex items-center justify-between p-4 border-b bg-primary text-primary-foreground rounded-t-lg">
             <div className="flex items-center gap-2">
               <MessageCircle className="h-5 w-5" />
-              <h3 className="font-semibold">Navigation Assistant</h3>
+              <h3 className="font-semibold">{t("chatbot.title")}</h3>
             </div>
             <Button
               variant="ghost"
@@ -139,7 +139,7 @@ const ChatBot = () => {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="Ask about the website..."
+                placeholder={t("chatbot.placeholder")}
                 disabled={isLoading}
                 className="flex-1"
               />

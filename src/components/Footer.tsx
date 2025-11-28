@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Logo & Copyright */}
           <div className="flex flex-col items-center md:items-start space-y-2 mb-6 md:mb-0">
             <img src={driftLogo} alt="Drift AI" className="h-8 w-auto" />
-            <p className="text-sm opacity-75">Maritime AI Consulting</p>
+            <p className="text-sm opacity-75">{t("footer.tagline")}</p>
           </div>
 
           {/* Links */}
@@ -21,7 +21,7 @@ const Footer = () => {
               href="mailto:andreas.buskop@gmail.com"
               className="hover:text-accent transition-colors"
             >
-              Contact
+              {t("footer.contact")}
             </a>
             <a 
               href="https://www.linkedin.com/in/andreasbuskop/"
@@ -29,7 +29,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
             >
-              LinkedIn
+              {t("footer.linkedin")}
             </a>
             <a 
               href="https://maritime-ops-hub-andreasbuskop.replit.app"
@@ -37,14 +37,14 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
             >
-              Live Demo
+              {t("footer.liveDemo")}
             </a>
           </div>
 
           {/* Copyright */}
           <div className="text-sm opacity-75 text-center md:text-right">
             <p>© {currentYear} drift.ai</p>
-            <p>All rights reserved</p>
+            <p>{t("footer.rights")}</p>
           </div>
         </div>
       </div>
