@@ -1,8 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Linkedin, MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <section id="contact" className="py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">

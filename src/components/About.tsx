@@ -1,28 +1,30 @@
 import { Card } from "@/components/ui/card";
 import { Award, Briefcase, GraduationCap, Target } from "lucide-react";
 import profileImage from "@/assets/profile-andre.jpg";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   const highlights = [
     {
       icon: Briefcase,
-      title: "16+ Years Experience",
-      description: "Maritime & energy sector leadership"
+      title: t("about.experience"),
+      description: t("about.experienceDesc")
     },
     {
       icon: GraduationCap,
-      title: "Naval Architect",
-      description: "Deep technical maritime expertise"
+      title: t("about.architect"),
+      description: t("about.architectDesc")
     },
     {
       icon: Award,
-      title: "Proven Track Record",
-      description: "Statkraft, VARD, EU & Enova funding"
+      title: t("about.track"),
+      description: t("about.trackDesc")
     },
     {
       icon: Target,
-      title: "AI Education",
-      description: "Executive Master in Applied AI"
+      title: t("about.education"),
+      description: t("about.educationDesc")
     }
   ];
 
@@ -31,11 +33,10 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
-            About drift.ai
+            {t("about.title")}
           </h2>
           <p className="text-xl text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
-            We understand maritime operations. We leverage generative AI to free your team from 
-            routine work and deliver the competitive insights you need to stay ahead.
+            {t("about.subtitle")}
           </p>
 
           {/* Highlights Grid */}
@@ -62,28 +63,18 @@ const About = () => {
                 className="w-48 h-48 rounded-lg object-cover shadow-medium flex-shrink-0"
               />
               <div className="space-y-6 text-foreground">
-                <h3 className="text-2xl font-bold mb-4">Andreas Buskop - Chief Architect & Founder</h3>
+                <h3 className="text-2xl font-bold mb-4">{t("about.founderTitle")}</h3>
                 
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  Andreas Buskop is a Senior Business Developer and Naval Architect with 16+ years of experience 
-                  bridging technical complexity with commercial viability in the energy and maritime sectors. 
-                  Currently pursuing an Executive Master in Management – Applied AI at BI Norwegian Business School, 
-                  he combines deep maritime domain expertise with emerging AI capabilities to solve real operational challenges.
+                  {t("about.bio1")}
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  At Statkraft, he led business development for large-scale maritime energy hubs, developing 
-                  integrated value chain strategies and leading market expansion initiatives. Previously at VARD, 
-                  he transformed traditional engineering into a sustainability-focused innovation hub, positioning 
-                  the company as a leader in zero-emission maritime solutions.
+                  {t("about.bio2")}
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  Andreas founded drift.ai to bridge the critical gap between cutting-edge generative AI capabilities 
-                  and practical maritime industry needs. By leveraging Python, AI automation, and strategic consulting 
-                  expertise, he helps maritime companies reclaim time from routine operations and amplify strategic 
-                  decision-making. His approach combines proven commercial acumen, technical depth, and deep maritime 
-                  domain knowledge to deliver measurable ROI.
+                  {t("about.bio3")}
                 </p>
               </div>
             </div>

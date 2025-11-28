@@ -1,0 +1,225 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "caseStudy": "Case Study",
+    "expertise": "Expertise",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Reclaim your time,",
+    "titleAccent": "amplify your decisions",
+    "titleEnd": "with maritime AI",
+    "subtitle": "Expert generative AI consulting tailored for maritime operations. Free your team from routine work and gain the competitive insights you need to stay ahead.",
+    "exploreServices": "Explore Our Services",
+    "scheduleConsultation": "Schedule a Consultation"
+  },
+  "about": {
+    "title": "About drift.ai",
+    "subtitle": "We understand maritime operations. We leverage generative AI to free your team from routine work and deliver the competitive insights you need to stay ahead.",
+    "experience": "16+ Years Experience",
+    "experienceDesc": "Maritime & energy sector leadership",
+    "architect": "Naval Architect",
+    "architectDesc": "Deep technical maritime expertise",
+    "track": "Proven Track Record",
+    "trackDesc": "Statkraft, VARD, EU & Enova funding",
+    "education": "AI Education",
+    "educationDesc": "Executive Master in Applied AI",
+    "founderTitle": "Andreas Buskop - Chief Architect & Founder",
+    "bio1": "Andreas Buskop is a Senior Business Developer and Naval Architect with 16+ years of experience bridging technical complexity with commercial viability in the energy and maritime sectors. Currently pursuing an Executive Master in Management – Applied AI at BI Norwegian Business School, he combines deep maritime domain expertise with emerging AI capabilities to solve real operational challenges.",
+    "bio2": "At Statkraft, he led business development for large-scale maritime energy hubs, developing integrated value chain strategies and leading market expansion initiatives. Previously at VARD, he transformed traditional engineering into a sustainability-focused innovation hub, positioning the company as a leader in zero-emission maritime solutions.",
+    "bio3": "Andreas founded drift.ai to bridge the critical gap between cutting-edge generative AI capabilities and practical maritime industry needs. By leveraging Python, AI automation, and strategic consulting expertise, he helps maritime companies reclaim time from routine operations and amplify strategic decision-making. His approach combines proven commercial acumen, technical depth, and deep maritime domain knowledge to deliver measurable ROI."
+  },
+  "services": {
+    "title": "What We Offer",
+    "subtitle": "Our consulting services combine maritime domain expertise with cutting-edge generative AI to solve your most pressing operational challenges.",
+    "strategy": {
+      "title": "AI Strategy Consulting for Maritime Operations",
+      "description": "We assess your maritime operations and identify high-impact AI implementation opportunities through strategic consultation.",
+      "features": [
+        "Operational assessment and opportunity identification",
+        "Feasibility analysis for AI solutions",
+        "Implementation roadmap with phased approach",
+        "ROI projections and business case development"
+      ]
+    },
+    "development": {
+      "title": "Custom AI Application Development",
+      "description": "We design and build tailored generative AI applications for your specific maritime workflows—purpose-built, not generic.",
+      "features": [
+        "Full-stack application development",
+        "AI model integration and optimization",
+        "API integration with maritime data sources",
+        "Production deployment and monitoring"
+      ]
+    },
+    "route": {
+      "title": "Route Optimization & Fuel Efficiency Analysis",
+      "description": "Leverage AI-powered analysis to optimize vessel routes, reduce fuel consumption, and identify cost-saving opportunities.",
+      "features": [
+        "Route optimization with cost/benefit analysis",
+        "Fuel efficiency recommendations",
+        "Savings projections and tracking",
+        "Real-time weather integration"
+      ]
+    },
+    "issue": {
+      "title": "Operational Issue Analysis & Impact Assessment",
+      "description": "When operational issues arise, our AI-powered analysis quickly assesses impact, estimates costs, and recommends mitigation strategies.",
+      "features": [
+        "Rapid issue impact analysis",
+        "Cost and timeline impact assessment",
+        "Risk level determination",
+        "Recommended mitigation actions"
+      ]
+    },
+    "fleet": {
+      "title": "Real-Time Fleet Visibility & Analytics Dashboard",
+      "description": "Gain complete visibility into your fleet operations with a unified dashboard integrating live tracking, weather, and analytics.",
+      "features": [
+        "Interactive fleet tracking dashboard",
+        "Real-time weather and operational alerts",
+        "Fleet performance analytics",
+        "Role-based access control"
+      ]
+    },
+    "rag": {
+      "title": "Local RAG Models & Engineering Data Intelligence",
+      "description": "Consolidate fragmented design and engineering data with local AI models that give you complete control and unlock value.",
+      "features": [
+        "Local RAG model for data sovereignty",
+        "Integration with design tools (CAD, analysis)",
+        "AI co-pilot for engineers and designers",
+        "Knowledge capture and institutional memory"
+      ]
+    },
+    "cta": "Ready to transform your operations? Schedule a consultation"
+  },
+  "caseStudy": {
+    "title": "Featured Project",
+    "subtitle": "Maritime Operations Hub: Real-Time AI-Powered Fleet Management",
+    "challenge": "The Challenge",
+    "challengeItems": {
+      "visibility": "Visibility Gap:",
+      "visibilityDesc": "Difficulty tracking multiple vessels in real-time, leading to coordination inefficiencies.",
+      "decision": "Decision Speed:",
+      "decisionDesc": "Manual route planning consuming significant time, delaying time-sensitive decisions.",
+      "cost": "Cost Opacity:",
+      "costDesc": "Lack of clear visibility into fuel consumption and optimization opportunities.",
+      "operational": "Operational Responsiveness:",
+      "operationalDesc": "Slow response times due to manual impact analysis."
+    },
+    "solution": "The Solution",
+    "solutionDesc": "A comprehensive, AI-enhanced web platform combining real-time vessel tracking with intelligent AI analysis to transform maritime fleet management.",
+    "features": [
+      "Real-Time Vessel Tracking with Interactive Map - Live AIS data for 4,300+ vessels",
+      "AI-Powered Route Optimization Engine - Fuel efficiency with detailed cost analysis",
+      "Comprehensive Weather Integration - 3-day forecasts for vessels and 25 ports",
+      "Intelligent Issue Reporting & Analysis - AI impact assessment with mitigation strategies",
+      "AI Chatbot for Maritime Queries - Natural language processing for operational planning",
+      "Fleet Management & Assignment System - Complete vessel categorization and tracking"
+    ],
+    "results": "Results & Impact",
+    "resultsItems": [
+      "Reduced route planning from hours to instant AI recommendations",
+      "Clear visibility into fuel consumption (5-15% typical savings)",
+      "Faster response to operational challenges with real-time analysis",
+      "Real-time competitive positioning for strategic decisions",
+      "AI handles complex analysis, freeing team for strategic focus"
+    ],
+    "proofTitle": "Proof of Concept Metrics:",
+    "proofItems": [
+      "4,300+ real vessel positions integrated",
+      "25 Northern European ports analyzed",
+      "Real-time weather data processing",
+      "AI recommendations in <5 seconds",
+      "Multi-user role-based access",
+      "Production-ready deployment"
+    ],
+    "techStack": "Technology Stack",
+    "backend": "Backend",
+    "backendItems": "Python, Flask, SQLAlchemy, Gunicorn",
+    "frontend": "Frontend",
+    "frontendItems": "HTML5, CSS3, JavaScript, Leaflet.js",
+    "aiApis": "AI & APIs",
+    "aiApisItems": "Google Gemini, BarentsWatch AIS, Open-Meteo",
+    "deployment": "Deployment",
+    "deploymentItems": "Replit, SQLite with WAL mode",
+    "viewDemo": "View Live Demo",
+    "developedIn": "Developed in 7-9 hours as proof-of-concept"
+  },
+  "expertise": {
+    "title": "Skills & Expertise",
+    "subtitle": "Combining deep maritime domain knowledge with modern AI technologies and proven methodologies",
+    "techStack": "Technology Stack",
+    "domainExpertise": "Domain Expertise",
+    "maritime": {
+      "title": "Maritime Operations",
+      "items": [
+        "Fleet management and vessel tracking",
+        "Route optimization and fuel efficiency",
+        "Maritime regulatory environment",
+        "Port operations and logistics"
+      ]
+    },
+    "ai": {
+      "title": "Generative AI Integration",
+      "items": [
+        "AI-powered decision support systems",
+        "Natural language processing",
+        "Real-time data analysis",
+        "AI prompt engineering for maritime"
+      ]
+    },
+    "business": {
+      "title": "Business Development",
+      "items": [
+        "Maritime industry pain point analysis",
+        "High-impact AI opportunity identification",
+        "Strategic consulting and solution design",
+        "ROI analysis and business cases"
+      ]
+    },
+    "methodology": "Our Methodology",
+    "method1": "1. Discovery First",
+    "method1Desc": "Deeply understand your operations, challenges, and objectives before recommending solutions.",
+    "method2": "2. Practical Focus",
+    "method2Desc": "Prioritize solutions that deliver measurable ROI and integrate seamlessly with existing operations.",
+    "method3": "3. Phased Implementation",
+    "method3Desc": "Roll out AI solutions in phases to minimize disruption and build organizational capability.",
+    "method4": "4. Team Augmentation",
+    "method4Desc": "Position AI as a capability multiplier—amplifying expertise and freeing teams for strategy.",
+    "method5": "5. Continuous Improvement",
+    "method5Desc": "Monitor performance, gather feedback, and evolve solutions based on real-world results.",
+    "method6": "6. Transparency & Partnership",
+    "method6Desc": "Maintain clear communication about capabilities, limitations, and expected outcomes."
+  },
+  "contact": {
+    "title": "Ready to Transform Your Maritime Operations?",
+    "subtitle": "Let's discuss how drift.ai can help you reclaim time and amplify decisions with AI.",
+    "getInTouch": "Get In Touch",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "location": "Location",
+    "locationValue": "Porsgrunn, Norway",
+    "availability": "Availability",
+    "availabilityText": "Currently accepting new consulting engagements and strategic partnerships with maritime companies looking to implement transformative AI solutions.",
+    "scheduleConsultation": "Schedule a Consultation",
+    "additionalInfo": "Open to discussing maritime AI opportunities, custom development projects, and strategic partnerships."
+  },
+  "footer": {
+    "tagline": "Maritime AI Consulting",
+    "contact": "Contact",
+    "linkedin": "LinkedIn",
+    "liveDemo": "Live Demo",
+    "rights": "All rights reserved"
+  },
+  "chatbot": {
+    "title": "Navigation Assistant",
+    "welcome": "Hi! I'm here to help you navigate the Drift AI website. What would you like to know about?",
+    "placeholder": "Ask about the website...",
+    "error": "Error",
+    "errorMessage": "Failed to send message. Please try again."
+  }
+}

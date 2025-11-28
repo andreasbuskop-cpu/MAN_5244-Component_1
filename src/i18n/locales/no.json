@@ -1,0 +1,225 @@
+{
+  "nav": {
+    "about": "Om oss",
+    "services": "Tjenester",
+    "caseStudy": "Casestudie",
+    "expertise": "Ekspertise",
+    "contact": "Kontakt",
+    "getStarted": "Kom i gang"
+  },
+  "hero": {
+    "title": "Gjenvinn din tid,",
+    "titleAccent": "forsterke dine beslutninger",
+    "titleEnd": "med maritim AI",
+    "subtitle": "Ekspert generativ AI-rådgivning skreddersydd for maritime operasjoner. Frigjør teamet ditt fra rutinearbeid og få den konkurransedyktige innsikten du trenger for å ligge i forkant.",
+    "exploreServices": "Utforsk våre tjenester",
+    "scheduleConsultation": "Bestill en konsultasjon"
+  },
+  "about": {
+    "title": "Om drift.ai",
+    "subtitle": "Vi forstår maritime operasjoner. Vi bruker generativ AI for å frigjøre teamet ditt fra rutinearbeid og levere den konkurransedyktige innsikten du trenger for å ligge i forkant.",
+    "experience": "16+ års erfaring",
+    "experienceDesc": "Ledelse innen maritim og energisektor",
+    "architect": "Skipsarkitekt",
+    "architectDesc": "Dyp teknisk maritim ekspertise",
+    "track": "Dokumentert resultathistorikk",
+    "trackDesc": "Statkraft, VARD, EU- og Enova-finansiering",
+    "education": "AI-utdanning",
+    "educationDesc": "Executive Master i Applied AI",
+    "founderTitle": "Andreas Buskop - Sjefarkitekt og gründer",
+    "bio1": "Andreas Buskop er en senior forretningsutvikler og skipsarkitekt med 16+ års erfaring med å bygge bro mellom teknisk kompleksitet og kommersiell levedyktighet i energi- og maritime sektorer. Han studerer for tiden en Executive Master i Management – Applied AI ved BI Handelshøyskolen, og kombinerer dyp maritim domenekompetanse med nye AI-evner for å løse reelle operasjonelle utfordringer.",
+    "bio2": "Hos Statkraft ledet han forretningsutvikling for store maritime energinavknutepunkter, utviklet integrerte verdikjedestrategier og ledet markedsekspansjonsinitiativer. Tidligere hos VARD, transformerte han tradisjonell ingeniørvirksomhet til et bærekraftsfokusert innovasjonssenter, og posisjonerte selskapet som leder i nullutslippsløsninger for maritim sektor.",
+    "bio3": "Andreas grunnla drift.ai for å bygge bro over det kritiske gapet mellom banebrytende generativ AI-kapasitet og praktiske behov i maritim industri. Ved å utnytte Python, AI-automatisering og strategisk konsulentekspertise, hjelper han maritime selskaper med å gjenerobre tid fra rutineoperasjoner og forsterke strategisk beslutningstaking. Hans tilnærming kombinerer dokumentert kommersiell innsikt, teknisk dybde og dyp maritim domenekunnskap for å levere målbare resultater."
+  },
+  "services": {
+    "title": "Hva vi tilbyr",
+    "subtitle": "Våre konsulenttjenester kombinerer maritim domenekompetanse med banebrytende generativ AI for å løse dine mest presserende operasjonelle utfordringer.",
+    "strategy": {
+      "title": "AI-strategirådgivning for maritime operasjoner",
+      "description": "Vi vurderer dine maritime operasjoner og identifiserer implementeringsmuligheter med høy effekt gjennom strategisk konsultasjon.",
+      "features": [
+        "Operasjonell vurdering og mulighetsidentifikasjon",
+        "Gjennomførbarhet for AI-løsninger",
+        "Implementeringskart med faseinndeling",
+        "ROI-prognoser og business case-utvikling"
+      ]
+    },
+    "development": {
+      "title": "Tilpasset AI-applikasjonsutvikling",
+      "description": "Vi designer og bygger skreddersydde generative AI-applikasjoner for dine spesifikke maritime arbeidsflyter—formålsbygget, ikke generisk.",
+      "features": [
+        "Full-stack applikasjonsutvikling",
+        "AI-modellintegrering og optimalisering",
+        "API-integrasjon med maritime datakilder",
+        "Produksjonsdistribusjon og overvåking"
+      ]
+    },
+    "route": {
+      "title": "Ruteoptimalisering og drivstoffeffektivitetsanalyse",
+      "description": "Bruk AI-drevet analyse for å optimalisere fartøyets ruter, redusere drivstofforbruk og identifisere kostnadsbesparende muligheter.",
+      "features": [
+        "Ruteoptimalisering med kost/nytte-analyse",
+        "Anbefalinger for drivstoffeffektivitet",
+        "Besparelser prognoser og sporing",
+        "Sanntidsintegrering av værdata"
+      ]
+    },
+    "issue": {
+      "title": "Analyse av operasjonelle problemer og konsekvensvurdering",
+      "description": "Når operasjonelle problemer oppstår, vurderer vår AI-drevne analyse raskt konsekvenser, estimerer kostnader og anbefaler avbøtende strategier.",
+      "features": [
+        "Rask analyse av problemkonsekvenser",
+        "Vurdering av kostnader og tidslinjer",
+        "Risikonivåbestemmelse",
+        "Anbefalte avbøtende tiltak"
+      ]
+    },
+    "fleet": {
+      "title": "Sanntidssynlighet og analysedashboard for flåte",
+      "description": "Få fullstendig synlighet i flåteoperasjonene dine med et samlet dashbord som integrerer live-sporing, vær og analyser.",
+      "features": [
+        "Interaktivt flåtesporingsdashbord",
+        "Sanntidsvær og operasjonelle varsler",
+        "Flåteytelsesanalyse",
+        "Rollebasert tilgangskontroll"
+      ]
+    },
+    "rag": {
+      "title": "Lokale RAG-modeller og tekniske dataintelligens",
+      "description": "Konsolider fragmenterte design- og ingeniørdata med lokale AI-modeller som gir deg fullstendig kontroll og frigjør verdi.",
+      "features": [
+        "Lokal RAG-modell for datasuverenitet",
+        "Integrasjon med designverktøy (CAD, analyse)",
+        "AI-kopilot for ingeniører og designere",
+        "Kunnskapsfangst og institusjonell hukommelse"
+      ]
+    },
+    "cta": "Klar til å transformere operasjonene dine? Bestill en konsultasjon"
+  },
+  "caseStudy": {
+    "title": "Utvalgt prosjekt",
+    "subtitle": "Maritime Operations Hub: Sanntids AI-drevet flåtestyring",
+    "challenge": "Utfordringen",
+    "challengeItems": {
+      "visibility": "Synlighetsgap:",
+      "visibilityDesc": "Vanskeligheter med å spore flere fartøyer i sanntid, noe som fører til koordineringsineffektivitet.",
+      "decision": "Beslutningshastighet:",
+      "decisionDesc": "Manuell ruteplanlegging som forbruker betydelig tid, forsinker tidskritiske beslutninger.",
+      "cost": "Kostnadsopasitet:",
+      "costDesc": "Mangel på klar synlighet i drivstofforbruk og optimeringsmuligheter.",
+      "operational": "Operasjonell respons:",
+      "operationalDesc": "Langsom responstid på grunn av manuell konsekvensanalyse."
+    },
+    "solution": "Løsningen",
+    "solutionDesc": "En omfattende, AI-forbedret webplattform som kombinerer sanntidssporing av fartøyer med intelligent AI-analyse for å transformere maritim flåtestyring.",
+    "features": [
+      "Sanntidsfartøyssporing med interaktivt kart - Live AIS-data for 4 300+ fartøyer",
+      "AI-drevet ruteoptimaliseringsmotor - Drivstoffeffektivitet med detaljert kostnadsanalyse",
+      "Omfattende værintegrasjon - 3-dagers prognoser for fartøyer og 25 havner",
+      "Intelligent problemrapportering og analyse - AI-konsekvensvurdering med avbøtende strategier",
+      "AI-chatbot for maritime spørsmål - Naturlig språkbehandling for operasjonell planlegging",
+      "Flåtestyring og tilordningssystem - Fullstendig fartøykategorisering og sporing"
+    ],
+    "results": "Resultater og effekt",
+    "resultsItems": [
+      "Redusert ruteplanlegging fra timer til umiddelbare AI-anbefalinger",
+      "Klar synlighet i drivstofforbruk (5-15% typiske besparelser)",
+      "Raskere respons på operasjonelle utfordringer med sanntidsanalyse",
+      "Sanntidsposisjonering i forhold til konkurrenter for strategiske beslutninger",
+      "AI håndterer kompleks analyse, frigjør team for strategisk fokus"
+    ],
+    "proofTitle": "Proof of Concept-målinger:",
+    "proofItems": [
+      "4 300+ reelle fartøyposisjoner integrert",
+      "25 nordeuropeiske havner analysert",
+      "Sanntidsværdatabehandling",
+      "AI-anbefalinger på <5 sekunder",
+      "Flerbrukerrollebasert tilgang",
+      "Produksjonsklar distribusjon"
+    ],
+    "techStack": "Teknologistakk",
+    "backend": "Backend",
+    "backendItems": "Python, Flask, SQLAlchemy, Gunicorn",
+    "frontend": "Frontend",
+    "frontendItems": "HTML5, CSS3, JavaScript, Leaflet.js",
+    "aiApis": "AI og API-er",
+    "aiApisItems": "Google Gemini, BarentsWatch AIS, Open-Meteo",
+    "deployment": "Distribusjon",
+    "deploymentItems": "Replit, SQLite med WAL-modus",
+    "viewDemo": "Se live-demo",
+    "developedIn": "Utviklet på 7-9 timer som proof-of-concept"
+  },
+  "expertise": {
+    "title": "Ferdigheter og ekspertise",
+    "subtitle": "Kombinerer dyp maritim domenekunnskap med moderne AI-teknologier og dokumenterte metoder",
+    "techStack": "Teknologistakk",
+    "domainExpertise": "Domeneekspertise",
+    "maritime": {
+      "title": "Maritime operasjoner",
+      "items": [
+        "Flåtestyring og fartøyssporing",
+        "Ruteoptimalisering og drivstoffeffektivitet",
+        "Maritimt reguleringsmiljø",
+        "Havneoperasjoner og logistikk"
+      ]
+    },
+    "ai": {
+      "title": "Generativ AI-integrasjon",
+      "items": [
+        "AI-drevne beslutningsstøttesystemer",
+        "Naturlig språkbehandling",
+        "Sanntidsdataanalyse",
+        "AI-prompt engineering for maritim sektor"
+      ]
+    },
+    "business": {
+      "title": "Forretningsutvikling",
+      "items": [
+        "Analyse av smertepunkter i maritim industri",
+        "Identifikasjon av høyeffektive AI-muligheter",
+        "Strategisk konsultasjon og løsningsdesign",
+        "ROI-analyse og business cases"
+      ]
+    },
+    "methodology": "Vår metodikk",
+    "method1": "1. Oppdagelse først",
+    "method1Desc": "Forstå dine operasjoner, utfordringer og mål grundig før vi anbefaler løsninger.",
+    "method2": "2. Praktisk fokus",
+    "method2Desc": "Prioriter løsninger som leverer målbare resultater og integreres sømløst med eksisterende operasjoner.",
+    "method3": "3. Faseinndelt implementering",
+    "method3Desc": "Rull ut AI-løsninger i faser for å minimere forstyrrelser og bygge organisatorisk kapasitet.",
+    "method4": "4. Teamforstørrelse",
+    "method4Desc": "Posisjonerer AI som en kapasitetsmultiplikator—forsterker ekspertise og frigjør team for strategi.",
+    "method5": "5. Kontinuerlig forbedring",
+    "method5Desc": "Overvåk ytelse, samle tilbakemeldinger og utvikle løsninger basert på virkelige resultater.",
+    "method6": "6. Åpenhet og partnerskap",
+    "method6Desc": "Oppretthold klar kommunikasjon om kapasiteter, begrensninger og forventede resultater."
+  },
+  "contact": {
+    "title": "Klar til å transformere dine maritime operasjoner?",
+    "subtitle": "La oss diskutere hvordan drift.ai kan hjelpe deg med å gjenerobre tid og forsterke beslutninger med AI.",
+    "getInTouch": "Kom i kontakt",
+    "email": "E-post",
+    "linkedin": "LinkedIn",
+    "location": "Plassering",
+    "locationValue": "Porsgrunn, Norge",
+    "availability": "Tilgjengelighet",
+    "availabilityText": "Tar for øyeblikket imot nye konsulentoppdrag og strategiske partnerskap med maritime selskaper som ønsker å implementere transformerende AI-løsninger.",
+    "scheduleConsultation": "Bestill en konsultasjon",
+    "additionalInfo": "Åpen for å diskutere maritime AI-muligheter, tilpassede utviklingsprosjekter og strategiske partnerskap."
+  },
+  "footer": {
+    "tagline": "Maritim AI-rådgivning",
+    "contact": "Kontakt",
+    "linkedin": "LinkedIn",
+    "liveDemo": "Live-demo",
+    "rights": "Alle rettigheter reservert"
+  },
+  "chatbot": {
+    "title": "Navigasjonsassistent",
+    "welcome": "Hei! Jeg er her for å hjelpe deg med å navigere på Drift AI-nettstedet. Hva vil du vite om?",
+    "placeholder": "Spør om nettstedet...",
+    "error": "Feil",
+    "errorMessage": "Kunne ikke sende melding. Vennligst prøv igjen."
+  }
+}

@@ -2,10 +2,16 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import driftLogo from "@/assets/drift-ai-logo.png";
+import { useTranslation } from "react-i18next";
 
 const Navigation = () => {
+  const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,11 +27,17 @@ const Navigation = () => {
   };
 
   const navItems = [
-    { label: "About", id: "about" },
-    { label: "Services", id: "services" },
-    { label: "Case Study", id: "case-study" },
-    { label: "Expertise", id: "expertise" },
-    { label: "Contact", id: "contact" },
+    { label: t("nav.about"), id: "about" },
+    { label: t("nav.services"), id: "services" },
+    { label: t("nav.caseStudy"), id: "case-study" },
+    { label: t("nav.expertise"), id: "expertise" },
+    { label: t("nav.contact"), id: "contact" },
+  ];
+
+  const languages = [
+    { code: "en", flag: "🇬🇧", name: "English" },
+    { code: "no", flag: "🇳🇴", name: "Norsk" },
+    { code: "zh", flag: "🇨🇳", name: "中文" },
   ];
 
   return (
@@ -57,12 +69,29 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            
+            {/* Language Flags */}
+            <div className="flex items-center space-x-2">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => changeLanguage(lang.code)}
+                  className={`text-2xl hover:scale-110 transition-transform ${
+                    i18n.language === lang.code ? "opacity-100" : "opacity-50"
+                  }`}
+                  title={lang.name}
+                >
+                  {lang.flag}
+                </button>
+              ))}
+            </div>
+
             <Button 
               onClick={() => scrollToSection("contact")}
               variant={isScrolled ? "default" : "secondary"}
               size="sm"
             >
-              Get Started
+              {t("nav.getStarted")}
             </Button>
           </div>
 
@@ -87,12 +116,29 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            
+            {/* Mobile Language Selector */}
+            <div className="flex items-center justify-center space-x-4 px-4 py-3 border-t border-border mt-2">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => changeLanguage(lang.code)}
+                  className={`text-2xl hover:scale-110 transition-transform ${
+                    i18n.language === lang.code ? "opacity-100" : "opacity-50"
+                  }`}
+                  title={lang.name}
+                >
+                  {lang.flag}
+                </button>
+              ))}
+            </div>
+
             <div className="px-4 pt-4">
               <Button 
                 onClick={() => scrollToSection("contact")}
                 className="w-full"
               >
-                Get Started
+                {t("nav.getStarted")}
               </Button>
             </div>
           </div>
