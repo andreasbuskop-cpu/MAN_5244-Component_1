@@ -1,8 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Compass, Code, Route, AlertTriangle, BarChart3, Database } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
   const services = [
     {
       icon: Compass,

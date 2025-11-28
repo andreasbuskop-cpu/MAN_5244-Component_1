@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { MessageCircle, X, Send } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
+import { useTranslation } from "react-i18next";
 
 interface Message {
   role: "user" | "assistant";
@@ -11,11 +12,12 @@ interface Message {
 }
 
 const ChatBot = () => {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hi! I'm here to help you navigate the Drift AI website. What would you like to know about?",
+      content: t("chatbot.welcome"),
     },
   ]);
   const [input, setInput] = useState("");

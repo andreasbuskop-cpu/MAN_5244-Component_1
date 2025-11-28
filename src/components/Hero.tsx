@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-maritime-ai.jpg";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation();
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -22,14 +24,13 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-10 px-4 py-20 mx-auto text-center animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-          Reclaim your time,<br />
-          <span className="text-accent">amplify your decisions</span><br />
-          with maritime AI
+          {t("hero.title")}<br />
+          <span className="text-accent">{t("hero.titleAccent")}</span><br />
+          {t("hero.titleEnd")}
         </h1>
         
         <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto mb-12 leading-relaxed">
-          Expert generative AI consulting tailored for maritime operations. 
-          Free your team from routine work and gain the competitive insights you need to stay ahead.
+          {t("hero.subtitle")}
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -39,7 +40,7 @@ const Hero = () => {
             className="text-lg px-8 py-6 shadow-large hover:shadow-medium transition-all"
             onClick={() => scrollToSection("services")}
           >
-            Explore Our Services
+            {t("hero.exploreServices")}
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           <Button 
@@ -48,7 +49,7 @@ const Hero = () => {
             className="text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
             onClick={() => scrollToSection("contact")}
           >
-            Schedule a Consultation
+            {t("hero.scheduleConsultation")}
           </Button>
         </div>
       </div>
