@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import driftLogo from "@/assets/drift-ai-logo.png";
 import { useTranslation } from "react-i18next";
+import { GB } from "country-flag-icons/react/3x2";
+import { NO } from "country-flag-icons/react/3x2";
+import { CN } from "country-flag-icons/react/3x2";
 
 const Navigation = () => {
   const { t, i18n } = useTranslation();
@@ -35,9 +38,9 @@ const Navigation = () => {
   ];
 
   const languages = [
-    { code: "en", flag: "🇬🇧", name: "English" },
-    { code: "no", flag: "🇳🇴", name: "Norsk" },
-    { code: "zh", flag: "🇨🇳", name: "中文" },
+    { code: "en", Flag: GB, name: "English" },
+    { code: "no", Flag: NO, name: "Norsk" },
+    { code: "zh", Flag: CN, name: "中文" },
   ];
 
   return (
@@ -72,18 +75,21 @@ const Navigation = () => {
             
             {/* Language Flags */}
             <div className="flex items-center space-x-2">
-              {languages.map((lang) => (
-                <button
-                  key={lang.code}
-                  onClick={() => changeLanguage(lang.code)}
-                  className={`text-2xl hover:scale-110 transition-transform ${
-                    i18n.language === lang.code ? "opacity-100" : "opacity-50"
-                  }`}
-                  title={lang.name}
-                >
-                  {lang.flag}
-                </button>
-              ))}
+              {languages.map((lang) => {
+                const FlagIcon = lang.Flag;
+                return (
+                  <button
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={`hover:scale-110 transition-transform ${
+                      i18n.language === lang.code ? "opacity-100" : "opacity-50"
+                    }`}
+                    title={lang.name}
+                  >
+                    <FlagIcon className="w-6 h-4 rounded" />
+                  </button>
+                );
+              })}
             </div>
 
             <Button 
@@ -119,18 +125,21 @@ const Navigation = () => {
             
             {/* Mobile Language Selector */}
             <div className="flex items-center justify-center space-x-4 px-4 py-3 border-t border-border mt-2">
-              {languages.map((lang) => (
-                <button
-                  key={lang.code}
-                  onClick={() => changeLanguage(lang.code)}
-                  className={`text-2xl hover:scale-110 transition-transform ${
-                    i18n.language === lang.code ? "opacity-100" : "opacity-50"
-                  }`}
-                  title={lang.name}
-                >
-                  {lang.flag}
-                </button>
-              ))}
+              {languages.map((lang) => {
+                const FlagIcon = lang.Flag;
+                return (
+                  <button
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={`hover:scale-110 transition-transform ${
+                      i18n.language === lang.code ? "opacity-100" : "opacity-50"
+                    }`}
+                    title={lang.name}
+                  >
+                    <FlagIcon className="w-8 h-6 rounded" />
+                  </button>
+                );
+              })}
             </div>
 
             <div className="px-4 pt-4">
