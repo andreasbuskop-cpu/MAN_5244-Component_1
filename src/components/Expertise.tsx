@@ -1,6 +1,8 @@
 import { Card } from "@/components/ui/card";
+import { useTranslation } from "react-i18next";
 
 const Expertise = () => {
+  const { t } = useTranslation();
   const technologies = [
     { name: "Python", category: "Backend" },
     { name: "Flask", category: "Backend" },
@@ -18,58 +20,43 @@ const Expertise = () => {
 
   const domains = [
     {
-      title: "Maritime Operations",
-      items: [
-        "Fleet management and vessel tracking",
-        "Route optimization and fuel efficiency",
-        "Maritime regulatory environment",
-        "Port operations and logistics"
-      ]
+      title: t("expertise.maritime.title"),
+      items: t("expertise.maritime.items", { returnObjects: true }) as string[]
     },
     {
-      title: "Generative AI Integration",
-      items: [
-        "AI-powered decision support systems",
-        "Natural language processing",
-        "Real-time data analysis",
-        "AI prompt engineering for maritime"
-      ]
+      title: t("expertise.ai.title"),
+      items: t("expertise.ai.items", { returnObjects: true }) as string[]
     },
     {
-      title: "Business Development",
-      items: [
-        "Maritime industry pain point analysis",
-        "High-impact AI opportunity identification",
-        "Strategic consulting and solution design",
-        "ROI analysis and business cases"
-      ]
+      title: t("expertise.business.title"),
+      items: t("expertise.business.items", { returnObjects: true }) as string[]
     }
   ];
 
   const methodology = [
     {
-      step: "1. Discovery First",
-      description: "Deeply understand your operations, challenges, and objectives before recommending solutions."
+      step: t("expertise.method1"),
+      description: t("expertise.method1Desc")
     },
     {
-      step: "2. Practical Focus",
-      description: "Prioritize solutions that deliver measurable ROI and integrate seamlessly with existing operations."
+      step: t("expertise.method2"),
+      description: t("expertise.method2Desc")
     },
     {
-      step: "3. Phased Implementation",
-      description: "Roll out AI solutions in phases to minimize disruption and build organizational capability."
+      step: t("expertise.method3"),
+      description: t("expertise.method3Desc")
     },
     {
-      step: "4. Team Augmentation",
-      description: "Position AI as a capability multiplier—amplifying expertise and freeing teams for strategy."
+      step: t("expertise.method4"),
+      description: t("expertise.method4Desc")
     },
     {
-      step: "5. Continuous Improvement",
-      description: "Monitor performance, gather feedback, and evolve solutions based on real-world results."
+      step: t("expertise.method5"),
+      description: t("expertise.method5Desc")
     },
     {
-      step: "6. Transparency & Partnership",
-      description: "Maintain clear communication about capabilities, limitations, and expected outcomes."
+      step: t("expertise.method6"),
+      description: t("expertise.method6Desc")
     }
   ];
 
@@ -78,15 +65,15 @@ const Expertise = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
-            Skills & Expertise
+            {t("expertise.title")}
           </h2>
           <p className="text-xl text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
-            Combining deep maritime domain knowledge with modern AI technologies and proven methodologies
+            {t("expertise.subtitle")}
           </p>
 
           {/* Technology Stack */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">Technology Stack</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">{t("expertise.techStack")}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {technologies.map((tech, index) => (
                 <Card 
@@ -102,7 +89,7 @@ const Expertise = () => {
 
           {/* Domain Expertise */}
           <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">Domain Expertise</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">{t("expertise.domainExpertise")}</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {domains.map((domain, index) => (
                 <Card key={index} className="p-6">
@@ -122,7 +109,7 @@ const Expertise = () => {
 
           {/* Methodology */}
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-foreground">Our Methodology</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">{t("expertise.methodology")}</h3>
             <Card className="p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {methodology.map((item, index) => (
