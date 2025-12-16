@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
-import { Award, Briefcase, GraduationCap, Target } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Award, Briefcase, GraduationCap, Target, Linkedin } from "lucide-react";
 import profileImage from "@/assets/profile-andre.jpg";
 import { useTranslation } from "react-i18next";
 
@@ -76,6 +77,15 @@ const About = () => {
                 <p className="text-lg leading-relaxed text-muted-foreground">
                   {t("about.bio3")}
                 </p>
+
+                <Button
+                  variant="outline"
+                  className="mt-4"
+                  onClick={() => window.open("https://www.linkedin.com/in/andreasbuskop/", "_blank")}
+                >
+                  <Linkedin className="mr-2 h-4 w-4" />
+                  {t("about.linkedinCta")}
+                </Button>
               </div>
             </div>
           </Card>

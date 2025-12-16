@@ -1,8 +1,10 @@
 {
   "nav": {
     "about": "Om oss",
+    "industries": "Bransjer",
     "services": "Tjenester",
-    "caseStudy": "Casestudie",
+    "method": "Metode",
+    "caseStudy": "Casestudier",
     "expertise": "Ekspertise",
     "contact": "Kontakt",
     "getStarted": "Kom i gang"
@@ -10,95 +12,188 @@
   "hero": {
     "title": "Gjenvinn din tid,",
     "titleAccent": "forsterke dine beslutninger",
-    "titleEnd": "med maritim AI",
-    "subtitle": "Ekspert generativ AI-rådgivning skreddersydd for maritime operasjoner. Frigjør teamet ditt fra rutinearbeid og få den konkurransedyktige innsikten du trenger for å ligge i forkant.",
-    "exploreServices": "Utforsk våre tjenester",
+    "titleEnd": "med Generativ AI",
+    "subtitle": "Ekspert generativ AI-rådgivning skreddersydd for mange bransjer. Frigjør teamet ditt fra rutinearbeid og få den konkurransedyktige innsikten du trenger for å ligge i forkant.",
+    "exploreServices": "Utforsk vår metode",
     "scheduleConsultation": "Bestill en konsultasjon"
+  },
+  "trustBar": {
+    "experience": "16+ år",
+    "experienceDesc": "Bransjeerfaring",
+    "architect": "Skipsarkitekt",
+    "architectDesc": "Dyp teknisk ekspertise",
+    "education": "Executive AI @ BI",
+    "educationDesc": "Applied AI Masters",
+    "enterprise": "Enterprise-bakgrunn",
+    "enterpriseDesc": "Statkraft, VARD, Aker"
+  },
+  "industries": {
+    "title": "Bransjer vi betjener",
+    "subtitle": "AI-strategi og implementeringsekspertise på tvers av kapitalintensive bransjer",
+    "maritime": {
+      "title": "Maritim & Shipping",
+      "description": "Ruteoptimalisering, complianceautomatisering, prediktivt vedlikehold",
+      "painPoints": [
+        "CII/EU ETS compliance-kompleksitet",
+        "Manuelle dokumentasjonsarbeidsflyter",
+        "Ruteoptimaliseringsutfordringer",
+        "Prediktivt vedlikehold for aldrende flåter"
+      ]
+    },
+    "energy": {
+      "title": "Energi & Forsyning",
+      "description": "Eiendelsytelse, regulatorisk rapportering, nettoptimalisering",
+      "painPoints": [
+        "Nettbalansering og prognoser",
+        "Regulatorisk rapportering (EU-taksonomi, ESG)",
+        "Eiendelsytelsesstyring",
+        "Prediktivt vedlikehold"
+      ]
+    },
+    "industry": {
+      "title": "Industri & Produksjon",
+      "description": "Prosessoptimalisering, kvalitetskontroll, dokumentasjonsarbeidsflyter",
+      "painPoints": [
+        "Automatisering av kvalitetskontroll",
+        "Prosessoptimalisering",
+        "Dokumentasjonsarbeidsflyter",
+        "Prediktivt vedlikehold"
+      ]
+    },
+    "engineering": {
+      "title": "Ingeniør & Design",
+      "description": "Designautomatisering, kunnskapsfangst, ingeniørdataintelligens",
+      "painPoints": [
+        "Fragmenterte designdata",
+        "Utfordringer med kunnskapsfangst",
+        "Repeterende ingeniøroppgaver",
+        "Optimalisering av designgjennomgang"
+      ]
+    }
+  },
+  "methodology": {
+    "title": "DriftAI-metoden",
+    "subtitle": "Vi gir deg muligheten til å bygge og eie dine egne AI-løsninger",
+    "intro": "I motsetning til typiske AI-leverandører som selger programvare, gir vi din organisasjon muligheten til å skape, eie og kontrollere dine AI-løsninger. Dine data forblir dine. Dine løsninger forblir dine.",
+    "differentiator": {
+      "title": "Hva gjør oss forskjellige",
+      "points": [
+        "Du eier dine AI-løsninger - ingen leverandørlåsing",
+        "Dine data forblir under din kontroll",
+        "Vi bygger din interne AI-kapasitet",
+        "Kunnskapsoverføring, ikke avhengighet"
+      ]
+    },
+    "discover": {
+      "title": "Oppdage",
+      "subtitle": "Mulighetsvurdering",
+      "description": "Kartlegg høyverdige AI-muligheter på tvers av dine operasjoner",
+      "outputs": [
+        "Workshop med teamet ditt for å kartlegge smertepunkter",
+        "Identifiser effektivitets-, beslutnings- og vekstmuligheter",
+        "Evaluer organisatorisk beredskap",
+        "Prioritert mulighetsportefølje"
+      ]
+    },
+    "design": {
+      "title": "Designe",
+      "subtitle": "Løsningsarkitektur",
+      "description": "Lag ditt veikart med løsninger du vil eie",
+      "outputs": [
+        "Scorer og prioriterer brukstilfeller",
+        "Design løsninger for ditt eierskap",
+        "Faset implementeringsveikart",
+        "ROI-prognoser og business cases"
+      ]
+    },
+    "deliver": {
+      "title": "Levere",
+      "subtitle": "Bygg & Overfør",
+      "description": "Utvikle løsninger mens vi bygger teamets kapasitet",
+      "outputs": [
+        "Implementer høyt prioriterte brukstilfeller",
+        "Kunnskapsoverføring til teamet ditt",
+        "Dokumentasjon og opplæring",
+        "Validert bevis på verdi"
+      ]
+    },
+    "scale": {
+      "title": "Skalere",
+      "subtitle": "Voks Selvstendig",
+      "description": "Utvid din AI-kapasitet med selvtillit",
+      "outputs": [
+        "Enterprise-bred utrulling",
+        "Intern teamstyrking",
+        "Rammeverk for kontinuerlig forbedring",
+        "Fullt operasjonelt eierskap"
+      ]
+    }
   },
   "about": {
     "title": "Om DriftAI",
-    "subtitle": "Vi forstår maritime operasjoner. Vi bruker generativ AI for å frigjøre teamet ditt fra rutinearbeid og levere den konkurransedyktige innsikten du trenger for å ligge i forkant.",
+    "subtitle": "Bygger AI-strategier som fungerer i den virkelige verden. Vi bygger bro mellom banebrytende AI-kapasitet og praktiske bransjebehov.",
     "experience": "16+ års erfaring",
     "experienceDesc": "Ledelse innen maritim og energisektor",
     "architect": "Skipsarkitekt",
-    "architectDesc": "Dyp teknisk maritim ekspertise",
+    "architectDesc": "Dyp teknisk ekspertise",
     "track": "Dokumentert resultathistorikk",
-    "trackDesc": "Statkraft, VARD, AkerSolutions",
+    "trackDesc": "Statkraft, VARD & Aker Solutions",
     "education": "AI-utdanning",
     "educationDesc": "Executive Master i Applied AI",
     "founderTitle": "Andreas Buskop - Sjefarkitekt og gründer",
-    "bio1": "Andreas Buskop er en senior forretningsutvikler og skipsarkitekt med 16+ års erfaring med å bygge bro mellom teknisk kompleksitet og kommersiell levedyktighet i energi- og maritime sektorer. Han studerer for tiden en Executive Master i Management – Applied AI ved BI Handelshøyskolen, og kombinerer dyp maritim domenekompetanse med nye AI-evner for å løse reelle operasjonelle utfordringer.",
-    "bio2": "Hos Statkraft ledet han forretningsutvikling for store maritime energinavknutepunkter, utviklet integrerte verdikjedestrategier og ledet markedsekspansjonsinitiativer. Tidligere hos VARD, transformerte han tradisjonell ingeniørvirksomhet til et bærekraftsfokusert innovasjonssenter, og posisjonerte selskapet som leder i nullutslippsløsninger for maritim sektor.",
-    "bio3": "Andreas grunnla DriftAI for å bygge bro over det kritiske gapet mellom banebrytende generativ AI-kapasitet og praktiske behov i maritim industri. Ved å utnytte Python, AI-automatisering og strategisk konsulentekspertise, hjelper han maritime selskaper med å gjenerobre tid fra rutineoperasjoner og forsterke strategisk beslutningstaking. Hans tilnærming kombinerer dokumentert kommersiell innsikt, teknisk dybde og dyp maritim domenekunnskap for å levere målbare resultater."
+    "bio1": "Andreas Buskop er en senior forretningsutvikler og skipsarkitekt med 16+ års erfaring med å bygge bro mellom teknisk kompleksitet og kommersiell levedyktighet i energi- og maritime sektorer. Han fullfører for tiden en Executive Master i Management – Applied AI ved BI Handelshøyskolen, og kombinerer dyp domeneekspertise med nye AI-evner for å løse reelle operasjonelle utfordringer.",
+    "bio2": "EDGE-rammeverket og den fasede implementeringstilnærmingen jeg utviklet kombinerer akademisk metodikk med praktisk bransjeerfaring. Denne strukturerte tilnærmingen sikrer at AI-initiativer leverer målbar verdi, ikke bare teknologi for teknologiens skyld.",
+    "bio3": "Jeg grunnla DriftAI fordi jeg så et gap: selskaper som drukner i AI-hype, men mangler praktiske veikart. Enten du er i maritim, energi, offshore, produksjon eller ingeniørvirksomhet—veien til AI-verdi følger lignende mønstre. Min tilnærming hjelper deg å finne den veien.",
+    "linkedinCta": "Koble til på LinkedIn"
   },
   "services": {
-    "title": "Hva vi tilbyr",
-    "subtitle": "Våre konsulenttjenester kombinerer maritim domenekompetanse med banebrytende generativ AI for å løse dine mest presserende operasjonelle utfordringer.",
+    "title": "Hvordan vi hjelper",
+    "subtitle": "Metodikk-tilpassede tjenester som tar deg fra vurdering til skalering",
     "strategy": {
-      "title": "AI-strategirådgivning for maritime operasjoner",
-      "description": "Vi vurderer dine maritime operasjoner og identifiserer implementeringsmuligheter med høy effekt gjennom strategisk konsultasjon.",
+      "title": "AI-beredskapsvurdering",
+      "description": "EDGE-analyse kombinert med organisatorisk beredskapsevaluering for å identifisere dine høyeste verdi AI-muligheter.",
       "features": [
-        "Operasjonell vurdering og mulighetsidentifikasjon",
-        "Gjennomførbarhet for AI-løsninger",
-        "Implementeringskart med faseinndeling",
-        "ROI-prognoser og business case-utvikling"
+        "EDGE-rammeverk mulighetskartlegging",
+        "4-nivåers integreringsvurdering",
+        "Organisatorisk beredskapsevaluering",
+        "Prioritert mulighetsportefølje"
       ]
     },
     "development": {
-      "title": "Tilpasset AI-applikasjonsutvikling",
-      "description": "Vi designer og bygger skreddersydde generative AI-applikasjoner for dine spesifikke maritime arbeidsflyter—formålsbygget, ikke generisk.",
+      "title": "Strategisk AI-veikart",
+      "description": "Faset implementeringsplan med klare milepæler, ROI-prognoser og bygg vs. kjøp-anbefalinger.",
       "features": [
-        "Full-stack applikasjonsutvikling",
-        "AI-modellintegrering og optimalisering",
-        "API-integrasjon med maritime datakilder",
-        "Produksjonsdistribusjon og overvåking"
-      ]
-    },
-    "route": {
-      "title": "Ruteoptimalisering og drivstoffeffektivitetsanalyse",
-      "description": "Bruk AI-drevet analyse for å optimalisere fartøyets ruter, redusere drivstofforbruk og identifisere kostnadsbesparende muligheter.",
-      "features": [
-        "Ruteoptimalisering med kost/nytte-analyse",
-        "Anbefalinger for drivstoffeffektivitet",
-        "Besparelser prognoser og sporing",
-        "Sanntidsintegrering av værdata"
+        "Brukscase-scoring og prioritering",
+        "Faset implementeringstidslinje",
+        "ROI-prognoser og business cases",
+        "Teknologistakk-anbefalinger"
       ]
     },
     "issue": {
-      "title": "Analyse av operasjonelle problemer og konsekvensvurdering",
-      "description": "Når operasjonelle problemer oppstår, vurderer vår AI-drevne analyse raskt konsekvenser, estimerer kostnader og anbefaler avbøtende strategier.",
+      "title": "Pilot-implementering",
+      "description": "Kontrollert utrulling av høyt prioriterte brukstilfeller med grunnlinjemåling og validering.",
       "features": [
-        "Rask analyse av problemkonsekvenser",
-        "Vurdering av kostnader og tidslinjer",
-        "Risikonivåbestemmelse",
-        "Anbefalte avbøtende tiltak"
-      ]
-    },
-    "fleet": {
-      "title": "Sanntidssynlighet og analysedashboard for flåte",
-      "description": "Få fullstendig synlighet i flåteoperasjonene dine med et samlet dashbord som integrerer live-sporing, vær og analyser.",
-      "features": [
-        "Interaktivt flåtesporingsdashbord",
-        "Sanntidsvær og operasjonelle varsler",
-        "Flåteytelsesanalyse",
-        "Rollebasert tilgangskontroll"
+        "Utvikling av høyt prioriterte brukstilfeller",
+        "Innsamling av grunnlagsdata",
+        "Rammeverk for ytelsesmåling",
+        "Validert bevis på verdi"
       ]
     },
     "rag": {
-      "title": "Lokale RAG-modeller og tekniske dataintelligens",
-      "description": "Konsolider fragmenterte design- og ingeniørdata med lokale AI-modeller som gir deg fullstendig kontroll og frigjør verdi.",
+      "title": "Skalering & Integrering",
+      "description": "Enterprise-utrulling med endringsledelse, opplæring og kontinuerlig optimalisering.",
       "features": [
-        "Lokal RAG-modell for datasuverenitet",
-        "Integrasjon med designverktøy (CAD, analyse)",
-        "AI-kopilot for ingeniører og designere",
-        "Kunnskapsfangst og institusjonell hukommelse"
+        "Enterprise-bred utrulling",
+        "Endringsledelses-programmer",
+        "Opplæring og kapasitetsbygging",
+        "Rammeverk for kontinuerlig forbedring"
       ]
     },
-    "cta": "Klar til å transformere operasjonene dine? Bestill en konsultasjon"
+    "cta": "Klar til å starte AI-reisen din? Bestill en konsultasjon"
   },
   "caseStudy": {
-    "title": "Utvalgte prosjekter",
-    "subtitle": "Utforsk våre AI-drevne løsninger som transformerer maritime operasjoner og forretningsprosesser.",
+    "title": "Dokumenterte resultater",
+    "subtitle": "Reelle implementeringer som leverer målbar verdi",
     "viewApplication": "Se applikasjon",
     "testDemo": "Test demo",
     "comingSoon": "Demo kommer snart",
@@ -109,11 +204,24 @@
     "softfunding": {
       "name": "Softfunding CoPilot",
       "description": "Din AI-drevne navigator for finansieringsmuligheter. Oppdager automatisk relevante muligheter på tvers av norske og EU-finansieringskilder, matcher dem til prosjektene dine, genererer søknadsutkast og lærer av resultater for å forbedre fremtidige suksessrater."
+    },
+    "anonymized": {
+      "name": "Norsk shippingoperatør",
+      "badge": "Strategicase",
+      "challenge": "13-fartøys flåte med fragmenterte manuelle prosesser og ingen AI/data science-ekspertise internt",
+      "solution": "EDGE-rammeverksanalyse identifiserte 27 potensielle brukstilfeller, prioritert til 5 høyeffektive initiativer med faset veikart",
+      "results": [
+        "27 brukstilfeller identifisert på tvers av operasjoner",
+        "5 høyt prioriterte initiativer valgt",
+        "Projisert betydelig årlig verdi per fartøy",
+        "Faset veikart: Grunnlag, Pilot, Skalering"
+      ],
+      "insight": "Spørsmålet er ikke om AI skaper verdi—bransjebevisene er overveldende. Spørsmålet er hvordan man implementerer det gitt organisatoriske begrensninger."
     }
   },
   "expertise": {
     "title": "Ferdigheter og ekspertise",
-    "subtitle": "Kombinerer dyp maritim domenekunnskap med moderne AI-teknologier og dokumenterte metoder",
+    "subtitle": "Kombinerer dyp domenekunnskap med moderne AI-teknologier og dokumenterte metoder",
     "techStack": "Teknologistakk",
     "domainExpertise": "Domeneekspertise",
     "maritime": {
@@ -131,13 +239,13 @@
         "AI-drevne beslutningsstøttesystemer",
         "Naturlig språkbehandling",
         "Sanntidsdataanalyse",
-        "AI-prompt engineering for maritim sektor"
+        "AI-prompt engineering"
       ]
     },
     "business": {
       "title": "Forretningsutvikling",
       "items": [
-        "Analyse av smertepunkter i maritim industri",
+        "Analyse av smertepunkter i bransjen",
         "Identifikasjon av høyeffektive AI-muligheter",
         "Strategisk konsultasjon og løsningsdesign",
         "ROI-analyse og business cases"
@@ -158,28 +266,60 @@
     "method6Desc": "Oppretthold klar kommunikasjon om kapasiteter, begrensninger og forventede resultater."
   },
   "contact": {
-    "title": "Klar til å transformere dine maritime operasjoner?",
-    "subtitle": "La oss diskutere hvordan drift.ai kan hjelpe deg med å gjenerobre tid og forsterke beslutninger med AI.",
+    "title": "Klar til å transformere dine operasjoner?",
+    "subtitle": "La oss diskutere hvordan DriftAI kan hjelpe deg med å implementere AI som leverer reell verdi.",
     "getInTouch": "Kom i kontakt",
     "email": "E-post",
     "linkedin": "LinkedIn",
     "location": "Plassering",
     "locationValue": "Porsgrunn, Norge",
     "availability": "Tilgjengelighet",
-    "availabilityText": "Tar for øyeblikket imot nye konsulentoppdrag og strategiske partnerskap med maritime selskaper som ønsker å implementere transformerende AI-løsninger.",
+    "availabilityText": "Tar for øyeblikket imot nye konsulentoppdrag og strategiske partnerskap med selskaper innen maritim, energi, offshore, produksjon og ingeniørvirksomhet som ønsker å implementere transformerende AI-løsninger.",
     "scheduleConsultation": "Bestill en konsultasjon",
-    "additionalInfo": "Åpen for å diskutere maritime AI-muligheter, tilpassede utviklingsprosjekter og strategiske partnerskap."
+    "additionalInfo": "Åpen for å diskutere AI-strategi, tilpassede utviklingsprosjekter og strategiske partnerskap på tvers av alle kapitalintensive bransjer."
   },
   "footer": {
-    "tagline": "Maritim AI-rådgivning",
+    "tagline": "Industriell AI-strategi og implementering",
     "contact": "Kontakt",
     "linkedin": "LinkedIn",
     "liveDemo": "Live-demo",
     "rights": "Alle rettigheter reservert"
   },
+  "blog": {
+    "title": "Innsikt og nyheter",
+    "subtitle": "Siste tanker om AI-strategi og implementering i kapitalintensive bransjer",
+    "readMore": "Les mer",
+    "viewAll": "Se alle artikler",
+    "categories": {
+      "strategy": "AI-strategi",
+      "implementation": "Implementering",
+      "industry": "Bransjeinnsikt",
+      "case": "Casestudier"
+    },
+    "posts": {
+      "post1": {
+        "title": "EDGE-rammeverket: En strukturert tilnærming til AI-verdi",
+        "excerpt": "Hvordan identifisere og prioritere AI-muligheter ved å bruke Effektivitet, Beslutninger, Vekst og Myndiggjøring som guide.",
+        "category": "AI-strategi",
+        "date": "Kommer snart"
+      },
+      "post2": {
+        "title": "4 nivåer av AI-integrering: Hvor står din organisasjon?",
+        "excerpt": "Fra grunnleggende AI-tilgang til proprietære modeller—forstå modenhetsstigen for konkurransefordel.",
+        "category": "Implementering",
+        "date": "Kommer snart"
+      },
+      "post3": {
+        "title": "Maritim AI: Utover hypen",
+        "excerpt": "Praktiske anvendelser som leverer reell avkastning i shippingoperasjoner i dag.",
+        "category": "Bransjeinnsikt",
+        "date": "Kommer snart"
+      }
+    }
+  },
   "chatbot": {
     "title": "Navigasjonsassistent",
-    "welcome": "Hei! Jeg er her for å hjelpe deg med å navigere på Drift AI-nettstedet. Hva vil du vite om?",
+    "welcome": "Hei! Jeg er her for å hjelpe deg med å navigere på DriftAI-nettstedet. Hva vil du vite om?",
     "placeholder": "Spør om nettstedet...",
     "error": "Feil",
     "errorMessage": "Kunne ikke sende melding. Vennligst prøv igjen."

@@ -1,7 +1,9 @@
 {
   "nav": {
     "about": "About",
+    "industries": "Industries",
     "services": "Services",
+    "method": "Method",
     "caseStudy": "Case Studies",
     "expertise": "Expertise",
     "contact": "Contact",
@@ -11,74 +13,187 @@
     "title": "Reclaim your time,",
     "titleAccent": "amplify your decisions",
     "titleEnd": "with Generative AI",
-    "subtitle": "Expert generative AI consulting tailored for maritime & technology sector. Free your team from routine work and gain the competitive insights you need to stay ahead.",
-    "exploreServices": "Explore Our Services",
+    "subtitle": "Expert generative AI consulting tailored for many sectors. Free your team from routine work and gain the competitive insights you need to stay ahead.",
+    "exploreServices": "Explore Our Method",
     "scheduleConsultation": "Schedule a Consultation"
+  },
+  "trustBar": {
+    "experience": "16+ Years",
+    "experienceDesc": "Industry Experience",
+    "architect": "Naval Architect",
+    "architectDesc": "Deep Technical Expertise",
+    "education": "Executive AI @ BI",
+    "educationDesc": "Applied AI Masters",
+    "enterprise": "Enterprise Background",
+    "enterpriseDesc": "Statkraft, VARD, Aker"
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "subtitle": "AI strategy and implementation expertise across asset-heavy industries",
+    "maritime": {
+      "title": "Maritime & Shipping",
+      "description": "Voyage optimization, compliance automation, predictive maintenance",
+      "painPoints": [
+        "CII/EU ETS compliance complexity",
+        "Manual documentation workflows",
+        "Voyage optimization challenges",
+        "Predictive maintenance for aging fleets"
+      ]
+    },
+    "energy": {
+      "title": "Energy & Utilities",
+      "description": "Asset performance, regulatory reporting, grid optimization",
+      "painPoints": [
+        "Grid balancing and forecasting",
+        "Regulatory reporting (EU taxonomy, ESG)",
+        "Asset performance management",
+        "Predictive maintenance"
+      ]
+    },
+    "industry": {
+      "title": "Industry & Manufacturing",
+      "description": "Process optimization, quality control, documentation workflows",
+      "painPoints": [
+        "Quality control automation",
+        "Process optimization",
+        "Documentation workflows",
+        "Predictive maintenance"
+      ]
+    },
+    "engineering": {
+      "title": "Engineering & Design",
+      "description": "Design automation, knowledge capture, engineering data intelligence",
+      "painPoints": [
+        "Fragmented design data",
+        "Knowledge capture challenges",
+        "Repetitive engineering tasks",
+        "Design review optimization"
+      ]
+    }
+  },
+  "methodology": {
+    "title": "The DriftAI Method",
+    "subtitle": "Empowering you to build and own your AI solutions",
+    "intro": "Unlike typical AI vendors who sell software, we empower your organization to create, own, and control your AI solutions. Your data stays yours. Your solutions stay yours.",
+    "differentiator": {
+      "title": "What Makes Us Different",
+      "points": [
+        "You own your AI solutions - no vendor lock-in",
+        "Your data remains under your control",
+        "We build your internal AI capability",
+        "Knowledge transfer, not dependency"
+      ]
+    },
+    "discover": {
+      "title": "Discover",
+      "subtitle": "Opportunity Assessment",
+      "description": "Map high-value AI opportunities across your operations",
+      "outputs": [
+        "Workshop with your team to map pain points",
+        "Identify efficiency, decision, and growth opportunities",
+        "Evaluate organizational readiness",
+        "Prioritized opportunity portfolio"
+      ]
+    },
+    "design": {
+      "title": "Design",
+      "subtitle": "Solution Architecture",
+      "description": "Create your roadmap with solutions you will own",
+      "outputs": [
+        "Score and prioritize use cases",
+        "Design solutions for your ownership",
+        "Phased implementation roadmap",
+        "ROI projections and business cases"
+      ]
+    },
+    "deliver": {
+      "title": "Deliver",
+      "subtitle": "Build & Transfer",
+      "description": "Develop solutions while building your team's capability",
+      "outputs": [
+        "Implement high-priority use cases",
+        "Knowledge transfer to your team",
+        "Documentation and training",
+        "Validated proof of value"
+      ]
+    },
+    "scale": {
+      "title": "Scale",
+      "subtitle": "Grow Independently",
+      "description": "Expand your AI capability with confidence",
+      "outputs": [
+        "Enterprise-wide rollout",
+        "Internal team empowerment",
+        "Continuous improvement framework",
+        "Full operational ownership"
+      ]
+    }
   },
   "about": {
     "title": "About DriftAI",
-    "subtitle": "We understand maritime operations & technology development. We leverage generative AI to free your team from routine work and deliver the competitive insights you need to stay ahead.",
+    "subtitle": "Building AI strategies that work in the real world. We bridge the gap between cutting-edge AI capabilities and practical industry needs.",
     "experience": "16+ Years Experience",
     "experienceDesc": "Maritime & energy sector leadership",
     "architect": "Naval Architect",
-    "architectDesc": "Deep technical maritime expertise",
+    "architectDesc": "Deep technical expertise",
     "track": "Proven Track Record",
     "trackDesc": "Statkraft, VARD & Aker Solutions",
     "education": "AI Education",
     "educationDesc": "Executive Master in Applied AI",
     "founderTitle": "Andreas Buskop - Chief Architect & Founder",
-    "bio1": "Andreas Buskop is a Senior Business Developer and Naval Architect with 16+ years of experience bridging technical complexity with commercial viability in the energy and maritime sectors. Currently pursuing an Executive Master in Management – Applied AI at BI Norwegian Business School, he combines deep maritime domain expertise with emerging AI capabilities to solve real operational challenges.",
-    "bio2": "At Statkraft, he led business development for large-scale maritime energy hubs, developing integrated value chain strategies and leading market expansion initiatives. Previously at VARD, he transformed traditional engineering into a sustainability-focused innovation hub, positioning the company as a leader in zero-emission maritime solutions.",
-    "bio3": "Andreas founded DriftAI to bridge the critical gap between cutting-edge generative AI capabilities and practical industry needs. By leveraging Python, AI automation, and strategic consulting expertise, he helps companies reclaim time from routine operations and amplify strategic decision-making. His approach combines proven commercial acumen, technical depth, and deep maritime domain knowledge to deliver measurable ROI."
+    "bio1": "Andreas Buskop is a Senior Business Developer and Naval Architect with 16+ years of experience bridging technical complexity with commercial viability in the energy and maritime sectors. Currently completing an Executive Master in Management – Applied AI at BI Norwegian Business School, he combines deep domain expertise with emerging AI capabilities to solve real operational challenges.",
+    "bio2": "The EDGE Framework and phased implementation approach I developed combines academic methodology with hands-on industry experience. This structured approach ensures AI initiatives deliver measurable value, not just technology for technology's sake.",
+    "bio3": "I founded DriftAI because I saw a gap: companies drowning in AI hype but lacking practical roadmaps. Whether you're in maritime, energy, offshore, manufacturing, or engineering—the path to AI value follows similar patterns. My approach helps you find that path.",
+    "linkedinCta": "Connect on LinkedIn"
   },
   "services": {
-    "title": "What We Offer",
-    "subtitle": "Our consulting services combine maritime & engineering domain expertise with cutting-edge generative AI to solve your most pressing operational challenges.",
+    "title": "How We Help",
+    "subtitle": "Methodology-aligned services that take you from assessment to scale",
     "strategy": {
-      "title": "AI Strategy Consulting for Maritime Operations",
-      "description": "We assess your operations and identify high-impact AI implementation opportunities through strategic consultation.",
+      "title": "AI Readiness Assessment",
+      "description": "EDGE analysis combined with organizational readiness evaluation to identify your highest-value AI opportunities.",
       "features": [
-        "Operational assessment and opportunity identification",
-        "Feasibility analysis for AI solutions",
-        "Implementation roadmap with phased approach",
-        "ROI projections and business case development"
+        "EDGE Framework opportunity mapping",
+        "4-Levels integration assessment",
+        "Organizational readiness evaluation",
+        "Prioritized opportunity portfolio"
       ]
     },
     "development": {
-      "title": "Custom AI Application Development",
-      "description": "We design and build tailored generative AI applications for your specific workflows—purpose-built, not generic.",
+      "title": "Strategic AI Roadmap",
+      "description": "Phased implementation plan with clear milestones, ROI projections, and build vs. buy recommendations.",
       "features": [
-        "Full-stack application development",
-        "Agentic AI model integration and optimization",
-        "API integration with data sources",
-        "Production deployment and monitoring"
+        "Use-case scoring and prioritization",
+        "Phased implementation timeline",
+        "ROI projections and business cases",
+        "Technology stack recommendations"
       ]
     },
     "issue": {
-      "title": "Operational Issue Analysis & Impact Assessment",
-      "description": "When operational issues arise, our AI-powered analysis quickly assesses impact, estimates costs, and recommends mitigation strategies.",
+      "title": "Pilot Implementation",
+      "description": "Controlled deployment of high-priority use cases with baseline measurement and validation.",
       "features": [
-        "Rapid issue impact analysis",
-        "Cost and timeline impact assessment",
-        "Risk level determination",
-        "Recommended mitigation actions"
+        "High-priority use case development",
+        "Baseline data collection",
+        "Performance measurement framework",
+        "Validated proof of value"
       ]
     },
     "rag": {
-      "title": "Local RAG Models & Engineering Data Intelligence",
-      "description": "Consolidate fragmented design and engineering data with local AI models that give you complete control and unlock value.",
+      "title": "Scale & Integration",
+      "description": "Enterprise rollout with change management, training, and continuous optimization.",
       "features": [
-        "Local RAG model for data sovereignty",
-        "Integration with design tools (CAD, analysis)",
-        "AI co-pilot for engineers and designers",
-        "Knowledge capture and institutional memory"
+        "Enterprise-wide deployment",
+        "Change management programs",
+        "Training and capability building",
+        "Continuous improvement frameworks"
       ]
     },
-    "cta": "Ready to transform your operations? Schedule a consultation"
+    "cta": "Ready to start your AI journey? Schedule a consultation"
   },
   "caseStudy": {
-    "title": "Featured Projects",
-    "subtitle": "Explore our AI-powered solutions transforming maritime operations and business processes.",
+    "title": "Proven Results",
+    "subtitle": "Real implementations delivering measurable value",
     "viewApplication": "View Application",
     "testDemo": "Test Demo",
     "comingSoon": "Demo coming soon",
@@ -89,11 +204,24 @@
     "softfunding": {
       "name": "Softfunding CoPilot",
       "description": "Your AI-powered navigator for funding opportunities. Automatically discovers relevant opportunities across Norwegian and EU funding sources, matches them to your projects, generates application drafts, and learns from outcomes to improve future success rates."
+    },
+    "anonymized": {
+      "name": "Norwegian Shipping Operator",
+      "badge": "Strategy Case",
+      "challenge": "13-vessel fleet with fragmented manual processes and no AI/data science expertise in-house",
+      "solution": "EDGE Framework analysis identified 27 potential use cases, prioritized to 5 high-impact initiatives with phased roadmap",
+      "results": [
+        "27 use cases identified across operations",
+        "5 high-priority initiatives selected",
+        "Projected significant annual value per vessel",
+        "Phased roadmap: Foundation, Pilot, Scale"
+      ],
+      "insight": "The question isn't whether AI creates value—the industry evidence is overwhelming. The question is how to implement it given organizational constraints."
     }
   },
   "expertise": {
     "title": "Skills & Expertise",
-    "subtitle": "Combining deep maritime domain knowledge with modern AI technologies and proven methodologies",
+    "subtitle": "Combining deep domain knowledge with modern AI technologies and proven methodologies",
     "techStack": "Technology Stack",
     "domainExpertise": "Domain Expertise",
     "maritime": {
@@ -111,13 +239,13 @@
         "AI-powered decision support systems",
         "Natural language processing",
         "Real-time data analysis",
-        "AI prompt engineering for maritime"
+        "AI prompt engineering"
       ]
     },
     "business": {
       "title": "Business Development",
       "items": [
-        "Maritime industry pain point analysis",
+        "Industry pain point analysis",
         "High-impact AI opportunity identification",
         "Strategic consulting and solution design",
         "ROI analysis and business cases"
@@ -138,28 +266,60 @@
     "method6Desc": "Maintain clear communication about capabilities, limitations, and expected outcomes."
   },
   "contact": {
-    "title": "Ready to Transform Your Maritime Operations?",
-    "subtitle": "Let's discuss how drift.ai can help you reclaim time and amplify decisions with AI.",
+    "title": "Ready to Transform Your Operations?",
+    "subtitle": "Let's discuss how DriftAI can help you implement AI that delivers real value.",
     "getInTouch": "Get In Touch",
     "email": "Email",
     "linkedin": "LinkedIn",
     "location": "Location",
     "locationValue": "Porsgrunn, Norway",
     "availability": "Availability",
-    "availabilityText": "Currently accepting new consulting engagements and strategic partnerships with maritime companies looking to implement transformative AI solutions.",
+    "availabilityText": "Currently accepting new consulting engagements and strategic partnerships with companies in maritime, energy, offshore, manufacturing, and engineering looking to implement transformative AI solutions.",
     "scheduleConsultation": "Schedule a Consultation",
-    "additionalInfo": "Open to discussing maritime AI opportunities, custom development projects, and strategic partnerships."
+    "additionalInfo": "Open to discussing AI strategy, custom development projects, and strategic partnerships across all asset-heavy industries."
   },
   "footer": {
-    "tagline": "Maritime AI Consulting",
+    "tagline": "Industrial AI Strategy & Implementation",
     "contact": "Contact",
     "linkedin": "LinkedIn",
     "liveDemo": "Live Demo",
     "rights": "All rights reserved"
   },
+  "blog": {
+    "title": "Insights & News",
+    "subtitle": "Latest thinking on AI strategy and implementation in asset-heavy industries",
+    "readMore": "Read More",
+    "viewAll": "View All Articles",
+    "categories": {
+      "strategy": "AI Strategy",
+      "implementation": "Implementation",
+      "industry": "Industry Insights",
+      "case": "Case Studies"
+    },
+    "posts": {
+      "post1": {
+        "title": "The EDGE Framework: A Structured Approach to AI Value",
+        "excerpt": "How to identify and prioritize AI opportunities using Efficiency, Decisions, Growth, and Empowerment as your guide.",
+        "category": "AI Strategy",
+        "date": "Coming Soon"
+      },
+      "post2": {
+        "title": "4 Levels of AI Integration: Where Does Your Organization Stand?",
+        "excerpt": "From basic AI access to proprietary models—understanding the maturity ladder for competitive advantage.",
+        "category": "Implementation",
+        "date": "Coming Soon"
+      },
+      "post3": {
+        "title": "Maritime AI: Beyond the Hype",
+        "excerpt": "Practical applications delivering real ROI in shipping operations today.",
+        "category": "Industry Insights",
+        "date": "Coming Soon"
+      }
+    }
+  },
   "chatbot": {
     "title": "Navigation Assistant",
-    "welcome": "Hi! I'm here to help you navigate the Drift AI website. What would you like to know about?",
+    "welcome": "Hi! I'm here to help you navigate the DriftAI website. What would you like to know about?",
     "placeholder": "Ask about the website...",
     "error": "Error",
     "errorMessage": "Failed to send message. Please try again."

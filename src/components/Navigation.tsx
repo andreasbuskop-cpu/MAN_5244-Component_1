@@ -30,10 +30,9 @@ const Navigation = () => {
   };
 
   const navItems = [
-    { label: t("nav.about"), id: "about" },
-    { label: t("nav.services"), id: "services" },
+    { label: t("nav.industries"), id: "industries" },
+    { label: t("nav.method"), id: "method" },
     { label: t("nav.caseStudy"), id: "case-study" },
-    { label: t("nav.expertise"), id: "expertise" },
     { label: t("nav.contact"), id: "contact" },
   ];
 
