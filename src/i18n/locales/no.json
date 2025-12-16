@@ -16,20 +16,20 @@
     "scheduleConsultation": "Bestill en konsultasjon"
   },
   "about": {
-    "title": "Om drift.ai",
+    "title": "Om DriftAI",
     "subtitle": "Vi forstår maritime operasjoner. Vi bruker generativ AI for å frigjøre teamet ditt fra rutinearbeid og levere den konkurransedyktige innsikten du trenger for å ligge i forkant.",
     "experience": "16+ års erfaring",
     "experienceDesc": "Ledelse innen maritim og energisektor",
     "architect": "Skipsarkitekt",
     "architectDesc": "Dyp teknisk maritim ekspertise",
     "track": "Dokumentert resultathistorikk",
-    "trackDesc": "Statkraft, VARD, EU- og Enova-finansiering",
+    "trackDesc": "Statkraft, VARD, AkerSolutions",
     "education": "AI-utdanning",
     "educationDesc": "Executive Master i Applied AI",
     "founderTitle": "Andreas Buskop - Sjefarkitekt og gründer",
     "bio1": "Andreas Buskop er en senior forretningsutvikler og skipsarkitekt med 16+ års erfaring med å bygge bro mellom teknisk kompleksitet og kommersiell levedyktighet i energi- og maritime sektorer. Han studerer for tiden en Executive Master i Management – Applied AI ved BI Handelshøyskolen, og kombinerer dyp maritim domenekompetanse med nye AI-evner for å løse reelle operasjonelle utfordringer.",
     "bio2": "Hos Statkraft ledet han forretningsutvikling for store maritime energinavknutepunkter, utviklet integrerte verdikjedestrategier og ledet markedsekspansjonsinitiativer. Tidligere hos VARD, transformerte han tradisjonell ingeniørvirksomhet til et bærekraftsfokusert innovasjonssenter, og posisjonerte selskapet som leder i nullutslippsløsninger for maritim sektor.",
-    "bio3": "Andreas grunnla drift.ai for å bygge bro over det kritiske gapet mellom banebrytende generativ AI-kapasitet og praktiske behov i maritim industri. Ved å utnytte Python, AI-automatisering og strategisk konsulentekspertise, hjelper han maritime selskaper med å gjenerobre tid fra rutineoperasjoner og forsterke strategisk beslutningstaking. Hans tilnærming kombinerer dokumentert kommersiell innsikt, teknisk dybde og dyp maritim domenekunnskap for å levere målbare resultater."
+    "bio3": "Andreas grunnla DriftAI for å bygge bro over det kritiske gapet mellom banebrytende generativ AI-kapasitet og praktiske behov i maritim industri. Ved å utnytte Python, AI-automatisering og strategisk konsulentekspertise, hjelper han maritime selskaper med å gjenerobre tid fra rutineoperasjoner og forsterke strategisk beslutningstaking. Hans tilnærming kombinerer dokumentert kommersiell innsikt, teknisk dybde og dyp maritim domenekunnskap for å levere målbare resultater."
   },
   "services": {
     "title": "Hva vi tilbyr",
