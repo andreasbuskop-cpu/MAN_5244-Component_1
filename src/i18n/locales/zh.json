@@ -98,56 +98,18 @@
   },
   "caseStudy": {
     "title": "特色项目",
-    "subtitle": "海事运营中心：实时人工智能驱动的船队管理",
-    "challenge": "挑战",
-    "challengeItems": {
-      "visibility": "可见性差距：",
-      "visibilityDesc": "难以实时跟踪多艘船只，导致协调效率低下。",
-      "decision": "决策速度：",
-      "decisionDesc": "人工航线规划耗费大量时间，延迟时间敏感的决策。",
-      "cost": "成本不透明：",
-      "costDesc": "缺乏对燃料消耗和优化机会的清晰可见性。",
-      "operational": "运营响应能力：",
-      "operationalDesc": "由于人工影响分析导致响应时间缓慢。"
+    "subtitle": "探索我们转变海事运营和业务流程的人工智能解决方案。",
+    "viewApplication": "查看应用程序",
+    "testDemo": "测试演示",
+    "comingSoon": "演示即将推出",
+    "maritime": {
+      "name": "海事运营中心",
+      "description": "下一代海事管理平台，将实时船舶跟踪与人工智能相结合，改变航运公司优化航线、管理船队和做出数据驱动决策的方式。处理来自北欧水域4,300多艘船舶的实时AIS数据。"
     },
-    "solution": "解决方案",
-    "solutionDesc": "一个综合的、人工智能增强的网络平台，将实时船舶跟踪与智能人工智能分析相结合，以转变海事船队管理。",
-    "features": [
-      "具有交互式地图的实时船舶跟踪 - 4,300多艘船只的实时AIS数据",
-      "人工智能驱动的航线优化引擎 - 具有详细成本分析的燃油效率",
-      "综合天气集成 - 对船只和25个港口的3天预报",
-      "智能问题报告和分析 - 人工智能影响评估和缓解策略",
-      "海事查询的人工智能聊天机器人 - 用于运营规划的自然语言处理",
-      "船队管理和分配系统 - 完整的船只分类和跟踪"
-    ],
-    "results": "结果和影响",
-    "resultsItems": [
-      "将航线规划从数小时缩短到即时人工智能建议",
-      "清晰可见燃料消耗（典型节省5-15%）",
-      "通过实时分析更快地应对运营挑战",
-      "实时竞争定位以进行战略决策",
-      "人工智能处理复杂分析，释放团队进行战略关注"
-    ],
-    "proofTitle": "概念验证指标：",
-    "proofItems": [
-      "集成了4,300多个真实船舶位置",
-      "分析了25个北欧港口",
-      "实时天气数据处理",
-      "人工智能建议在<5秒内",
-      "多用户基于角色的访问",
-      "生产就绪部署"
-    ],
-    "techStack": "技术栈",
-    "backend": "后端",
-    "backendItems": "Python、Flask、SQLAlchemy、Gunicorn",
-    "frontend": "前端",
-    "frontendItems": "HTML5、CSS3、JavaScript、Leaflet.js",
-    "aiApis": "人工智能和API",
-    "aiApisItems": "Google Gemini、BarentsWatch AIS、Open-Meteo",
-    "deployment": "部署",
-    "deploymentItems": "Replit、WAL模式下的SQLite",
-    "viewDemo": "查看现场演示",
-    "developedIn": "作为概念验证在7-9小时内开发"
+    "softfunding": {
+      "name": "Softfunding CoPilot",
+      "description": "您的人工智能驱动的资金机会导航器。自动发现挪威和欧盟资金来源的相关机会，将其与您的项目匹配，生成申请草案，并从结果中学习以提高未来的成功率。"
+    }
   },
   "expertise": {
     "title": "技能和专业知识",

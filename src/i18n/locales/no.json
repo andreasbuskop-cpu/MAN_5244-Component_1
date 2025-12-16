@@ -97,57 +97,19 @@
     "cta": "Klar til å transformere operasjonene dine? Bestill en konsultasjon"
   },
   "caseStudy": {
-    "title": "Utvalgt prosjekt",
-    "subtitle": "Maritime Operations Hub: Sanntids AI-drevet flåtestyring",
-    "challenge": "Utfordringen",
-    "challengeItems": {
-      "visibility": "Synlighetsgap:",
-      "visibilityDesc": "Vanskeligheter med å spore flere fartøyer i sanntid, noe som fører til koordineringsineffektivitet.",
-      "decision": "Beslutningshastighet:",
-      "decisionDesc": "Manuell ruteplanlegging som forbruker betydelig tid, forsinker tidskritiske beslutninger.",
-      "cost": "Kostnadsopasitet:",
-      "costDesc": "Mangel på klar synlighet i drivstofforbruk og optimeringsmuligheter.",
-      "operational": "Operasjonell respons:",
-      "operationalDesc": "Langsom responstid på grunn av manuell konsekvensanalyse."
+    "title": "Utvalgte prosjekter",
+    "subtitle": "Utforsk våre AI-drevne løsninger som transformerer maritime operasjoner og forretningsprosesser.",
+    "viewApplication": "Se applikasjon",
+    "testDemo": "Test demo",
+    "comingSoon": "Demo kommer snart",
+    "maritime": {
+      "name": "Maritime Operations Hub",
+      "description": "En neste-generasjons maritim styringsplattform som kombinerer sanntids fartøysporing med AI for å transformere hvordan shippingselskaper optimaliserer ruter, styrer flåter og tar datadrevne beslutninger. Behandler live AIS-data fra 4 300+ fartøyer i nordeuropeiske farvann."
     },
-    "solution": "Løsningen",
-    "solutionDesc": "En omfattende, AI-forbedret webplattform som kombinerer sanntidssporing av fartøyer med intelligent AI-analyse for å transformere maritim flåtestyring.",
-    "features": [
-      "Sanntidsfartøyssporing med interaktivt kart - Live AIS-data for 4 300+ fartøyer",
-      "AI-drevet ruteoptimaliseringsmotor - Drivstoffeffektivitet med detaljert kostnadsanalyse",
-      "Omfattende værintegrasjon - 3-dagers prognoser for fartøyer og 25 havner",
-      "Intelligent problemrapportering og analyse - AI-konsekvensvurdering med avbøtende strategier",
-      "AI-chatbot for maritime spørsmål - Naturlig språkbehandling for operasjonell planlegging",
-      "Flåtestyring og tilordningssystem - Fullstendig fartøykategorisering og sporing"
-    ],
-    "results": "Resultater og effekt",
-    "resultsItems": [
-      "Redusert ruteplanlegging fra timer til umiddelbare AI-anbefalinger",
-      "Klar synlighet i drivstofforbruk (5-15% typiske besparelser)",
-      "Raskere respons på operasjonelle utfordringer med sanntidsanalyse",
-      "Sanntidsposisjonering i forhold til konkurrenter for strategiske beslutninger",
-      "AI håndterer kompleks analyse, frigjør team for strategisk fokus"
-    ],
-    "proofTitle": "Proof of Concept-målinger:",
-    "proofItems": [
-      "4 300+ reelle fartøyposisjoner integrert",
-      "25 nordeuropeiske havner analysert",
-      "Sanntidsværdatabehandling",
-      "AI-anbefalinger på <5 sekunder",
-      "Flerbrukerrollebasert tilgang",
-      "Produksjonsklar distribusjon"
-    ],
-    "techStack": "Teknologistakk",
-    "backend": "Backend",
-    "backendItems": "Python, Flask, SQLAlchemy, Gunicorn",
-    "frontend": "Frontend",
-    "frontendItems": "HTML5, CSS3, JavaScript, Leaflet.js",
-    "aiApis": "AI og API-er",
-    "aiApisItems": "Google Gemini, BarentsWatch AIS, Open-Meteo",
-    "deployment": "Distribusjon",
-    "deploymentItems": "Replit, SQLite med WAL-modus",
-    "viewDemo": "Se live-demo",
-    "developedIn": "Utviklet på 7-9 timer som proof-of-concept"
+    "softfunding": {
+      "name": "Softfunding CoPilot",
+      "description": "Din AI-drevne navigator for finansieringsmuligheter. Oppdager automatisk relevante muligheter på tvers av norske og EU-finansieringskilder, matcher dem til prosjektene dine, genererer søknadsutkast og lærer av resultater for å forbedre fremtidige suksessrater."
+    }
   },
   "expertise": {
     "title": "Ferdigheter og ekspertise",
