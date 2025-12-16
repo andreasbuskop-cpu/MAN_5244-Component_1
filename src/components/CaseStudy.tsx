@@ -42,44 +42,49 @@ const CaseStudy = () => {
             {t("caseStudy.subtitle")}
           </p>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="space-y-8">
             {caseStudies.map((study) => (
               <Card 
                 key={study.id} 
-                className="overflow-hidden hover:shadow-large transition-all duration-300 animate-slide-up flex flex-col"
+                className="overflow-hidden hover:shadow-large transition-all duration-300 animate-slide-up"
               >
-                {/* Video/Thumbnail Area */}
-                <div className="aspect-video bg-muted relative">
-                  {study.video ? (
-                    <video 
-                      src={study.video} 
-                      controls
-                      className="w-full h-full object-cover"
-                      aria-label={`${study.name} demo video`}
-                    >
-                      Your browser does not support the video tag.
-                    </video>
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-accent/20 to-primary/20">
-                      <div className="text-center">
-                        <Play className="h-16 w-16 text-accent mx-auto mb-2 opacity-50" />
-                        <span className="text-sm text-muted-foreground">{t("caseStudy.comingSoon")}</span>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+                  {/* Left: Description */}
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-2xl font-bold mb-3 text-foreground">{study.name}</h3>
+                    <p className="text-muted-foreground">{study.description}</p>
+                  </div>
+
+                  {/* Right: Video */}
+                  <div className="aspect-video bg-muted rounded-lg overflow-hidden">
+                    {study.video ? (
+                      <video 
+                        src={study.video} 
+                        controls
+                        className="w-full h-full object-cover"
+                        aria-label={`${study.name} demo video`}
+                      >
+                        Your browser does not support the video tag.
+                      </video>
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-accent/20 to-primary/20">
+                        <div className="text-center">
+                          <Play className="h-12 w-12 text-accent mx-auto mb-2 opacity-50" />
+                          <span className="text-sm text-muted-foreground">{t("caseStudy.comingSoon")}</span>
+                        </div>
                       </div>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
 
-                {/* Content */}
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-2xl font-bold mb-3 text-foreground">{study.name}</h3>
-                  <p className="text-muted-foreground mb-6 flex-grow">{study.description}</p>
-                  
+                {/* Button below */}
+                <div className="px-6 pb-6">
                   <Button 
                     variant="secondary"
-                    className="w-full"
+                    className="w-full md:w-auto"
                     onClick={() => window.open(study.link, "_blank")}
                   >
-                    {t("caseStudy.viewApplication")}
+                    {t("caseStudy.testDemo")}
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
