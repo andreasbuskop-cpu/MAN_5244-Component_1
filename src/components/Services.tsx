@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Compass, Code, Route, AlertTriangle, BarChart3, Database } from "lucide-react";
+import { Compass, Code, AlertTriangle, Database } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Services = () => {
@@ -19,22 +19,10 @@ const Services = () => {
       features: t("services.development.features", { returnObjects: true }) as string[]
     },
     {
-      icon: Route,
-      title: t("services.route.title"),
-      description: t("services.route.description"),
-      features: t("services.route.features", { returnObjects: true }) as string[]
-    },
-    {
       icon: AlertTriangle,
       title: t("services.issue.title"),
       description: t("services.issue.description"),
       features: t("services.issue.features", { returnObjects: true }) as string[]
-    },
-    {
-      icon: BarChart3,
-      title: t("services.fleet.title"),
-      description: t("services.fleet.description"),
-      features: t("services.fleet.features", { returnObjects: true }) as string[]
     },
     {
       icon: Database,

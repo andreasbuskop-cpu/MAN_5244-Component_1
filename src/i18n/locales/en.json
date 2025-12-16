@@ -2,7 +2,7 @@
   "nav": {
     "about": "About",
     "services": "Services",
-    "caseStudy": "Case Study",
+    "caseStudy": "Case Studies",
     "expertise": "Expertise",
     "contact": "Contact",
     "getStarted": "Get Started"
@@ -54,16 +54,6 @@
         "Production deployment and monitoring"
       ]
     },
-    "route": {
-      "title": "Route Optimization & Fuel Efficiency Analysis",
-      "description": "Leverage AI-powered analysis to optimize vessel routes, reduce fuel consumption, and identify cost-saving opportunities.",
-      "features": [
-        "Route optimization with cost/benefit analysis",
-        "Fuel efficiency recommendations",
-        "Savings projections and tracking",
-        "Real-time weather integration"
-      ]
-    },
     "issue": {
       "title": "Operational Issue Analysis & Impact Assessment",
       "description": "When operational issues arise, our AI-powered analysis quickly assesses impact, estimates costs, and recommends mitigation strategies.",
@@ -72,16 +62,6 @@
         "Cost and timeline impact assessment",
         "Risk level determination",
         "Recommended mitigation actions"
-      ]
-    },
-    "fleet": {
-      "title": "Real-Time Fleet Visibility & Analytics Dashboard",
-      "description": "Gain complete visibility into your fleet operations with a unified dashboard integrating live tracking, weather, and analytics.",
-      "features": [
-        "Interactive fleet tracking dashboard",
-        "Real-time weather and operational alerts",
-        "Fleet performance analytics",
-        "Role-based access control"
       ]
     },
     "rag": {
@@ -97,57 +77,18 @@
     "cta": "Ready to transform your operations? Schedule a consultation"
   },
   "caseStudy": {
-    "title": "Featured Project",
-    "subtitle": "Maritime Operations Hub: Real-Time AI-Powered Fleet Management",
-    "challenge": "The Challenge",
-    "challengeItems": {
-      "visibility": "Visibility Gap:",
-      "visibilityDesc": "Difficulty tracking multiple vessels in real-time, leading to coordination inefficiencies.",
-      "decision": "Decision Speed:",
-      "decisionDesc": "Manual route planning consuming significant time, delaying time-sensitive decisions.",
-      "cost": "Cost Opacity:",
-      "costDesc": "Lack of clear visibility into fuel consumption and optimization opportunities.",
-      "operational": "Operational Responsiveness:",
-      "operationalDesc": "Slow response times due to manual impact analysis."
+    "title": "Featured Projects",
+    "subtitle": "Explore our AI-powered solutions transforming maritime operations and business processes.",
+    "viewApplication": "View Application",
+    "comingSoon": "Demo coming soon",
+    "maritime": {
+      "name": "Maritime Operations Hub",
+      "description": "A next-generation maritime management platform combining real-time vessel tracking with AI to transform how shipping companies optimize routes, manage fleets, and make data-driven decisions. Processes live AIS data from 4,300+ vessels across Northern European waters."
     },
-    "solution": "The Solution",
-    "solutionDesc": "A comprehensive, AI-enhanced web platform combining real-time vessel tracking with intelligent AI analysis to transform maritime fleet management.",
-    "features": [
-      "Real-Time Vessel Tracking with Interactive Map - Live AIS data for 4,300+ vessels",
-      "AI-Powered Route Optimization Engine - Fuel efficiency with detailed cost analysis",
-      "Comprehensive Weather Integration - 3-day forecasts for vessels and 25 ports",
-      "Intelligent Issue Reporting & Analysis - AI impact assessment with mitigation strategies",
-      "AI Chatbot for Maritime Queries - Natural language processing for operational planning",
-      "Fleet Management & Assignment System - Complete vessel categorization and tracking"
-    ],
-    "results": "Results & Impact",
-    "resultsItems": [
-      "Reduced route planning from hours to instant AI recommendations",
-      "Clear visibility into fuel consumption (5-15% typical savings)",
-      "Faster response to operational challenges with real-time analysis",
-      "Real-time competitive positioning for strategic decisions",
-      "AI handles complex analysis, freeing team for strategic focus"
-    ],
-    "proofTitle": "Proof of Concept Metrics:",
-    "proofItems": [
-      "4,300+ real vessel positions integrated",
-      "25 Northern European ports analyzed",
-      "Real-time weather data processing",
-      "AI recommendations in <5 seconds",
-      "Multi-user role-based access",
-      "Production-ready deployment"
-    ],
-    "techStack": "Technology Stack",
-    "backend": "Backend",
-    "backendItems": "Python, Flask, SQLAlchemy, Gunicorn",
-    "frontend": "Frontend",
-    "frontendItems": "HTML5, CSS3, JavaScript, Leaflet.js",
-    "aiApis": "AI & APIs",
-    "aiApisItems": "Google Gemini, BarentsWatch AIS, Open-Meteo",
-    "deployment": "Deployment",
-    "deploymentItems": "Replit, SQLite with WAL mode",
-    "viewDemo": "View Live Demo",
-    "developedIn": "Developed in 7-9 hours as proof-of-concept"
+    "softfunding": {
+      "name": "Softfunding CoPilot",
+      "description": "Your AI-powered navigator for funding opportunities. Automatically discovers relevant opportunities across Norwegian and EU funding sources, matches them to your projects, generates application drafts, and learns from outcomes to improve future success rates."
+    }
   },
   "expertise": {
     "title": "Skills & Expertise",

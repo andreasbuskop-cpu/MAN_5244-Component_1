@@ -1,20 +1,34 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, CheckCircle2 } from "lucide-react";
+import { ExternalLink, Play } from "lucide-react";
 import maritimeOpsVideo from "@/assets/maritime-ops-promo.mp4";
 import { useTranslation } from "react-i18next";
 
+interface CaseStudyItem {
+  id: string;
+  name: string;
+  description: string;
+  link: string;
+  video?: string;
+}
+
 const CaseStudy = () => {
   const { t } = useTranslation();
-  const features = t("caseStudy.features", { returnObjects: true }) as string[];
-  const results = t("caseStudy.resultsItems", { returnObjects: true }) as string[];
-  const proofItems = t("caseStudy.proofItems", { returnObjects: true }) as string[];
 
-  const techStack = [
-    { category: t("caseStudy.backend"), items: t("caseStudy.backendItems") },
-    { category: t("caseStudy.frontend"), items: t("caseStudy.frontendItems") },
-    { category: t("caseStudy.aiApis"), items: t("caseStudy.aiApisItems") },
-    { category: t("caseStudy.deployment"), items: t("caseStudy.deploymentItems") }
+  const caseStudies: CaseStudyItem[] = [
+    {
+      id: "maritime",
+      name: t("caseStudy.maritime.name"),
+      description: t("caseStudy.maritime.description"),
+      link: "https://maritime.driftai.no",
+      video: maritimeOpsVideo,
+    },
+    {
+      id: "softfunding",
+      name: t("caseStudy.softfunding.name"),
+      description: t("caseStudy.softfunding.description"),
+      link: "https://funding.driftai.no",
+    },
   ];
 
   return (
@@ -24,97 +38,53 @@ const CaseStudy = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
             {t("caseStudy.title")}
           </h2>
-          <h3 className="text-2xl md:text-3xl text-center text-accent mb-16">
+          <p className="text-xl text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
             {t("caseStudy.subtitle")}
-          </h3>
+          </p>
 
-          {/* Hero Video */}
-          <div className="mb-12 rounded-xl overflow-hidden shadow-large">
-            <video 
-              src={maritimeOpsVideo} 
-              controls
-              className="w-full h-auto"
-              aria-label="Maritime Operations Hub promotional video"
-            >
-              Your browser does not support the video tag.
-            </video>
-          </div>
-
-          {/* Problem Statement */}
-          <Card className="p-8 md:p-12 mb-8">
-            <h4 className="text-2xl font-bold mb-4 text-foreground">{t("caseStudy.challenge")}</h4>
-            <div className="space-y-4 text-muted-foreground">
-              <p><strong className="text-foreground">{t("caseStudy.challengeItems.visibility")}</strong> {t("caseStudy.challengeItems.visibilityDesc")}</p>
-              <p><strong className="text-foreground">{t("caseStudy.challengeItems.decision")}</strong> {t("caseStudy.challengeItems.decisionDesc")}</p>
-              <p><strong className="text-foreground">{t("caseStudy.challengeItems.cost")}</strong> {t("caseStudy.challengeItems.costDesc")}</p>
-              <p><strong className="text-foreground">{t("caseStudy.challengeItems.operational")}</strong> {t("caseStudy.challengeItems.operationalDesc")}</p>
-            </div>
-          </Card>
-
-          {/* Solution Overview */}
-          <Card className="p-8 md:p-12 mb-8">
-            <h4 className="text-2xl font-bold mb-4 text-foreground">{t("caseStudy.solution")}</h4>
-            <p className="text-lg text-muted-foreground mb-6">
-              {t("caseStudy.solutionDesc")}
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {features.map((feature, index) => (
-                <div key={index} className="flex items-start space-x-3">
-                  <CheckCircle2 className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
-                  <span className="text-muted-foreground">{feature}</span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {caseStudies.map((study) => (
+              <Card 
+                key={study.id} 
+                className="overflow-hidden hover:shadow-large transition-all duration-300 animate-slide-up flex flex-col"
+              >
+                {/* Video/Thumbnail Area */}
+                <div className="aspect-video bg-muted relative">
+                  {study.video ? (
+                    <video 
+                      src={study.video} 
+                      controls
+                      className="w-full h-full object-cover"
+                      aria-label={`${study.name} demo video`}
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-accent/20 to-primary/20">
+                      <div className="text-center">
+                        <Play className="h-16 w-16 text-accent mx-auto mb-2 opacity-50" />
+                        <span className="text-sm text-muted-foreground">{t("caseStudy.comingSoon")}</span>
+                      </div>
+                    </div>
+                  )}
                 </div>
-              ))}
-            </div>
-          </Card>
 
-          {/* Results */}
-          <Card className="p-8 md:p-12 mb-8">
-            <h4 className="text-2xl font-bold mb-4 text-foreground">{t("caseStudy.results")}</h4>
-            <div className="space-y-3 mb-6">
-              {results.map((result, index) => (
-                <div key={index} className="flex items-start space-x-3">
-                  <span className="text-accent text-xl">✓</span>
-                  <span className="text-muted-foreground">{result}</span>
+                {/* Content */}
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-2xl font-bold mb-3 text-foreground">{study.name}</h3>
+                  <p className="text-muted-foreground mb-6 flex-grow">{study.description}</p>
+                  
+                  <Button 
+                    variant="secondary"
+                    className="w-full"
+                    onClick={() => window.open(study.link, "_blank")}
+                  >
+                    {t("caseStudy.viewApplication")}
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </Button>
                 </div>
-              ))}
-            </div>
-            <div className="bg-muted p-6 rounded-lg">
-              <h5 className="font-bold mb-3 text-foreground">{t("caseStudy.proofTitle")}</h5>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-muted-foreground">
-                {proofItems.map((item, index) => (
-                  <li key={index}>• {item}</li>
-                ))}
-              </ul>
-            </div>
-          </Card>
-
-          {/* Technology Stack */}
-          <Card className="p-8 md:p-12 mb-8">
-            <h4 className="text-2xl font-bold mb-4 text-foreground">{t("caseStudy.techStack")}</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {techStack.map((tech, index) => (
-                <div key={index}>
-                  <h5 className="font-semibold text-accent mb-2">{tech.category}</h5>
-                  <p className="text-muted-foreground">{tech.items}</p>
-                </div>
-              ))}
-            </div>
-          </Card>
-
-          {/* CTA */}
-          <div className="text-center">
-            <Button 
-              size="lg"
-              variant="secondary"
-              className="text-lg px-8 py-6"
-              onClick={() => window.open("https://maritime-ops-hub-andreasbuskop.replit.app", "_blank")}
-            >
-              {t("caseStudy.viewDemo")}
-              <ExternalLink className="ml-2 h-5 w-5" />
-            </Button>
-            <p className="text-sm text-muted-foreground mt-4">
-              {t("caseStudy.developedIn")}
-            </p>
+              </Card>
+            ))}
           </div>
         </div>
       </div>
