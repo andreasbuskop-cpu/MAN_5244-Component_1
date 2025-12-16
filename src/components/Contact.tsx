@@ -27,10 +27,10 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold mb-1">{t("contact.email")}</p>
                     <a 
-                      href="mailto:andreas.buskop@gmail.com"
+                      href="mailto:andreas.buskop@driftai.no"
                       className="text-accent hover:underline"
                     >
-                      andreas.buskop@gmail.com
+                      andreas.buskop@driftai.no
                     </a>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                 <Button 
                   size="lg"
                   className="w-full"
-                  onClick={() => window.location.href = "mailto:andreas.buskop@gmail.com?subject=Maritime AI Consulting Inquiry"}
+                  onClick={() => window.location.href = "mailto:andreas.buskop@driftai.no?subject=Maritime AI Consulting Inquiry"}
                 >
                   {t("contact.scheduleConsultation")}
                 </Button>
