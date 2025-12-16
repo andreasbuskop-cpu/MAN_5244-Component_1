@@ -29,14 +29,14 @@
     "founderTitle": "Andreas Buskop - Chief Architect & Founder",
     "bio1": "Andreas Buskop is a Senior Business Developer and Naval Architect with 16+ years of experience bridging technical complexity with commercial viability in the energy and maritime sectors. Currently pursuing an Executive Master in Management – Applied AI at BI Norwegian Business School, he combines deep maritime domain expertise with emerging AI capabilities to solve real operational challenges.",
     "bio2": "At Statkraft, he led business development for large-scale maritime energy hubs, developing integrated value chain strategies and leading market expansion initiatives. Previously at VARD, he transformed traditional engineering into a sustainability-focused innovation hub, positioning the company as a leader in zero-emission maritime solutions.",
-    "bio3": "Andreas founded drift.ai to bridge the critical gap between cutting-edge generative AI capabilities and practical maritime industry needs. By leveraging Python, AI automation, and strategic consulting expertise, he helps maritime companies reclaim time from routine operations and amplify strategic decision-making. His approach combines proven commercial acumen, technical depth, and deep maritime domain knowledge to deliver measurable ROI."
+    "bio3": "Andreas founded DriftAI to bridge the critical gap between cutting-edge generative AI capabilities and practical industry needs. By leveraging Python, AI automation, and strategic consulting expertise, he helps companies reclaim time from routine operations and amplify strategic decision-making. His approach combines proven commercial acumen, technical depth, and deep maritime domain knowledge to deliver measurable ROI."
   },
   "services": {
     "title": "What We Offer",
-    "subtitle": "Our consulting services combine maritime domain expertise with cutting-edge generative AI to solve your most pressing operational challenges.",
+    "subtitle": "Our consulting services combine maritime & engineering domain expertise with cutting-edge generative AI to solve your most pressing operational challenges.",
     "strategy": {
       "title": "AI Strategy Consulting for Maritime Operations",
-      "description": "We assess your maritime operations and identify high-impact AI implementation opportunities through strategic consultation.",
+      "description": "We assess your operations and identify high-impact AI implementation opportunities through strategic consultation.",
       "features": [
         "Operational assessment and opportunity identification",
         "Feasibility analysis for AI solutions",
@@ -46,11 +46,11 @@
     },
     "development": {
       "title": "Custom AI Application Development",
-      "description": "We design and build tailored generative AI applications for your specific maritime workflows—purpose-built, not generic.",
+      "description": "We design and build tailored generative AI applications for your specific workflows—purpose-built, not generic.",
       "features": [
         "Full-stack application development",
-        "AI model integration and optimization",
-        "API integration with maritime data sources",
+        "Agentic AI model integration and optimization",
+        "API integration with data sources",
         "Production deployment and monitoring"
       ]
     },
