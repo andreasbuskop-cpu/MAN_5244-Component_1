@@ -101,14 +101,15 @@
     "subtitle": "探索我们转变海事运营和业务流程的人工智能解决方案。",
     "viewApplication": "查看应用程序",
     "testDemo": "测试演示",
+    "downloadPresentation": "下载演示文稿",
     "comingSoon": "演示即将推出",
     "maritime": {
       "name": "海事运营中心",
       "description": "下一代海事管理平台，将实时船舶跟踪与人工智能相结合，改变航运公司优化航线、管理船队和做出数据驱动决策的方式。处理来自北欧水域4,300多艘船舶的实时AIS数据。"
     },
     "softfunding": {
-      "name": "Softfunding CoPilot",
-      "description": "您的人工智能驱动的资金机会导航器。自动发现挪威和欧盟资金来源的相关机会，将其与您的项目匹配，生成申请草案，并从结果中学习以提高未来的成功率。"
+      "name": "Soft Funding & Finance Copilot",
+      "description": "一个智能平台，可自动化创新项目的整个软性资金旅程。它发现挪威和欧盟资金来源的相关机会，将其与您的项目匹配，生成申请草案，并从结果中学习以提高未来的成功率。"
     }
   },
   "expertise": {

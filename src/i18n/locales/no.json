@@ -196,14 +196,15 @@
     "subtitle": "Reelle implementeringer som leverer målbar verdi",
     "viewApplication": "Se applikasjon",
     "testDemo": "Test demo",
+    "downloadPresentation": "Last ned presentasjon",
     "comingSoon": "Demo kommer snart",
     "maritime": {
       "name": "Maritime Operations Hub",
       "description": "En neste-generasjons maritim styringsplattform som kombinerer sanntids fartøysporing med AI for å transformere hvordan shippingselskaper optimaliserer ruter, styrer flåter og tar datadrevne beslutninger. Behandler live AIS-data fra 4 300+ fartøyer i nordeuropeiske farvann."
     },
     "softfunding": {
-      "name": "Softfunding CoPilot",
-      "description": "Din AI-drevne navigator for finansieringsmuligheter. Oppdager automatisk relevante muligheter på tvers av norske og EU-finansieringskilder, matcher dem til prosjektene dine, genererer søknadsutkast og lærer av resultater for å forbedre fremtidige suksessrater."
+      "name": "Soft Funding & Finance Copilot",
+      "description": "En intelligent plattform som automatiserer hele soft funding-reisen for innovasjonsprosjekter. Den oppdager relevante muligheter på tvers av norske og EU-finansieringskilder, matcher dem til prosjektene dine, genererer søknadsutkast og lærer av resultater for å forbedre fremtidige suksessrater."
     },
     "anonymized": {
       "name": "Norsk shippingoperatør",

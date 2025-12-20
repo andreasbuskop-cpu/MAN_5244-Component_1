@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Play, CheckCircle, Quote } from "lucide-react";
+import { ExternalLink, Play, CheckCircle, Quote, Download } from "lucide-react";
 import maritimeOpsVideo from "@/assets/maritime-ops-promo.mp4";
 import softfundingDashboard from "@/assets/softfunding-dashboard.png";
 import { useTranslation } from "react-i18next";
@@ -13,6 +13,7 @@ interface CaseStudyItem {
   link: string;
   video?: string;
   image?: string;
+  presentationUrl?: string;
 }
 
 const CaseStudy = () => {
@@ -32,6 +33,7 @@ const CaseStudy = () => {
       description: t("caseStudy.softfunding.description"),
       link: "https://funding.driftai.no",
       image: softfundingDashboard,
+      presentationUrl: "/docs/251220_Soft-Funding-and-Finance-Copilot.pdf",
     },
   ];
 
@@ -143,8 +145,8 @@ const CaseStudy = () => {
                   </div>
                 </div>
 
-                {/* Button below */}
-                <div className="px-6 pb-6">
+                {/* Buttons below */}
+                <div className="px-6 pb-6 flex flex-wrap gap-3">
                   <Button
                     variant="secondary"
                     className="w-full md:w-auto"
@@ -153,6 +155,16 @@ const CaseStudy = () => {
                     {t("caseStudy.testDemo")}
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </Button>
+                  {study.presentationUrl && (
+                    <Button
+                      variant="outline"
+                      className="w-full md:w-auto"
+                      onClick={() => window.open(study.presentationUrl, "_blank")}
+                    >
+                      {t("caseStudy.downloadPresentation")}
+                      <Download className="ml-2 h-4 w-4" />
+                    </Button>
+                  )}
                 </div>
               </Card>
             ))}
