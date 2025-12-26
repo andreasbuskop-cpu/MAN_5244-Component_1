@@ -33,7 +33,7 @@ const CaseStudy = () => {
       description: t("caseStudy.softfunding.description"),
       link: "https://funding.driftai.no",
       image: softfundingDashboard,
-      presentationUrl: "/docs/251220_Soft-Funding-and-Finance-Copilot.pdf",
+      presentationUrl: "/docs/251226_Softfunding_co-pilot.pdf",
     },
   ];
 
